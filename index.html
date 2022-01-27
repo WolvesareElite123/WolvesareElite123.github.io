@@ -22,7 +22,17 @@
     <br>
     <br>
     <br>
-    <h1 class="text-center">Welcome! This site is currently under construction.</h1>
-    <h2 class="text-center">Please check back in the future for more content!</h2>
+    <div class="container-fluid">
+        <h1 id="text1" class="display-3 text-center" style="display:none">Welcome! This site is currently under construction.</h1>
+        <h2 id="text2" class="display-4 text-center" style="display:none">Please check back in the future for more content!</h2>
+    </div>
+    
 </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+        $("#text1").fadeIn(5000);
+        $("#text2").fadeIn(8000);
+    });
+</script>

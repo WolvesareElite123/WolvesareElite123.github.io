@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="index.html">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="??????">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +45,15 @@
     </option>
   </component>
   <component name="ProjectId" id="24AtbhXa9rKJZeoVAlvW7m3mH80" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,6 +68,7 @@
       <updated>1643085293430</updated>
       <workItem from="1643085296587" duration="1064000" />
       <workItem from="1643170183366" duration="32000" />
+      <workItem from="1643170308121" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -73,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643085751876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Temporary Construction Page">
+      <created>1643170539658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643170539658</updated>
+    </task>
+    <task id="LOCAL-00003" summary="??????">
+      <created>1643170657097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643170657097</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,15 +112,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html" />
+    <MESSAGE value="Updated Temporary Construction Page" />
+    <MESSAGE value="??????" />
+    <option name="LAST_COMMIT_MESSAGE" value="??????" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1643085766113">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1643170663303">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643085766113" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643170663303" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643085714124">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
