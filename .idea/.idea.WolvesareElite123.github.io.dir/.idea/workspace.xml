@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="Completed Construction Page">
-      <change afterPath="$PROJECT_DIR$/Content/personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="Completed Construction Page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +79,7 @@
       <workItem from="1643384223326" duration="269000" />
       <workItem from="1644017405954" duration="665000" />
       <workItem from="1644963197747" duration="2175000" />
-      <workItem from="1645302509305" duration="720000" />
+      <workItem from="1645302509305" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -141,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644964008310</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed Redirect + Added Test.html">
+      <created>1645304410756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645304410756</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,13 +175,14 @@
     <MESSAGE value="Updated final &quot;Under Construction&quot; page design" />
     <MESSAGE value="Added Dedicated Construction Page" />
     <MESSAGE value="Quick Fixes and Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick Fixes and Tests" />
+    <MESSAGE value="Fixed Redirect + Added Test.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Redirect + Added Test.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1644964011455">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1645304414825">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1644018062697" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1645304414825" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1644964011455" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643085714124">
       <screen x="1920" y="0" width="1920" height="1040" />
