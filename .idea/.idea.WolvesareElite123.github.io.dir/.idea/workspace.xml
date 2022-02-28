@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="Completed Construction Page" />
+    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="Completed Construction Page">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +47,9 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/FirstConstruction.html" />
         <option value="$PROJECT_DIR$/Scripts/UnderConstruction.html" />
-        <option value="$PROJECT_DIR$/Content/personal.css" />
-        <option value="$PROJECT_DIR$/Test.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Test.html" />
+        <option value="$PROJECT_DIR$/Content/personal.css" />
       </list>
     </option>
   </component>
@@ -79,7 +83,9 @@
       <workItem from="1643384223326" duration="269000" />
       <workItem from="1644017405954" duration="665000" />
       <workItem from="1644963197747" duration="2175000" />
-      <workItem from="1645302509305" duration="1185000" />
+      <workItem from="1645302509305" duration="3758000" />
+      <workItem from="1645317679176" duration="3650000" />
+      <workItem from="1645409498577" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645304410756</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HTTPS Link Update">
+      <created>1645304887949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645304887949</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,13 +189,14 @@
     <MESSAGE value="Added Dedicated Construction Page" />
     <MESSAGE value="Quick Fixes and Tests" />
     <MESSAGE value="Fixed Redirect + Added Test.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Redirect + Added Test.html" />
+    <MESSAGE value="HTTPS Link Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTTPS Link Update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1645304414825">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1645304892089">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1645304414825" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1645304892089" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1644964011455" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643085714124">
       <screen x="1920" y="0" width="1920" height="1040" />
