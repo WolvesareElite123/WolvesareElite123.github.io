@@ -1,0 +1,84 @@
+﻿.diagsplit{
+    width: 100%;
+    height: 100%;//calc(90vh - 40px);
+    overflow: hidden;
+}
+
+.splitleft{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: #111;
+    position: relative;
+    transform: skew(-9deg);
+    z-index: 1;
+    transition: width 0.5s;
+
+    &:before{
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background-color: #111;
+        top: 0;
+        left: 0;
+        transform: skew(9deg);
+        z-index: -1;
+    }
+}
+
+.splitright{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: gray;
+    transform: skew(-9deg);
+    position: relative;
+    z-index: 1;
+    transition: width 0.5s;
+    
+    &:after{
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background: gray;
+        top: 0;
+        right: 0;
+        transform: skew(9deg);
+        z-index: -1;
+    }
+}
+
+.splitcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.splititems{
+    transform: skew(9deg);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.leftActive{
+    .splitleft{
+        width: 70%;
+    }
+    .splitright{
+        width: 30%;
+    }
+}
+
+.rightActive{
+    .splitleft{
+        width: 30%;
+    }
+    .splitright{
+        width: 70%;
+    }
+}
