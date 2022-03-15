@@ -19,6 +19,7 @@
 
     <link rel="stylesheet/less" type="text/css" href="personalLess.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
+    <script src="Scripts/less.min.js.map"></script>
     
     <style>
         body{
@@ -28,14 +29,17 @@
 </head>
 <body>
     <div class="diagsplit">
+        
         <div class="splitleft">
             <div class="splititems">
                 <h1>Left Side</h1>
+                <button id="btnsplitLeft" type="button" class="btn btn-outline-primary" style="display:none">Click Me!</button>
             </div>
         </div>
         <div class="splitright">
             <div class="splititems">
                 <h2>Right Side</h2>
+                <button id="btnsplitRight" type="button" class="btn btn-outline-primary" style="display:none">Click Me!</button>
             </div>
         </div>
     </div>
@@ -58,8 +62,30 @@
 <script>
     $('.splitleft').hover(function(){
         $('.diagsplit').toggleClass('leftActive');
-    });
+        $('#btnsplitLeft').fadeIn(500);
+        $('#btnsplitRight').fadeOut(0);
+    })
     $('.splitright').hover(function(){
         $('.diagsplit').toggleClass('rightActive');
+        $('#btnsplitRight').fadeIn(500);
+        $('#btnsplitLeft').fadeOut(0);
     })
+    
+    $('.splitleft').mouseleave(function(){
+        $('#btnsplitLeft').fadeOut(0);
+    })
+    
+    $('.splitright').mouseleave(function(){
+        $('#btnsplitRight').fadeOut(0);
+    })
+    
+    /*
+    $(document).ready(function () {
+        $("#text1").fadeIn(2000);
+        $("#text2").fadeIn(5000);
+        $("#text3").fadeIn(8000);
+        $("#button1").fadeIn(11000);
+    });
+    
+     */
 </script>
