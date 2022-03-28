@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/less.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/cat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/cat2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnderConstruction.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnderConstruction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personalLess.less" beforeDir="false" afterPath="$PROJECT_DIR$/personalLess.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +46,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/FirstConstruction.html" />
         <option value="$PROJECT_DIR$/Scripts/UnderConstruction.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Experiences.html" />
         <option value="$PROJECT_DIR$/Content/personal.css" />
-        <option value="$PROJECT_DIR$/UnderConstruction.html" />
+        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
         <option value="$PROJECT_DIR$/personalLess.less" />
         <option value="$PROJECT_DIR$/Test.html" />
+        <option value="$PROJECT_DIR$/UnderConstruction.html" />
       </list>
     </option>
   </component>
@@ -98,7 +100,9 @@
       <workItem from="1646604713153" duration="710000" />
       <workItem from="1646668561362" duration="259000" />
       <workItem from="1646770794704" duration="1849000" />
-      <workItem from="1647292732092" duration="2257000" />
+      <workItem from="1647292732092" duration="8080000" />
+      <workItem from="1647789026498" duration="20698000" />
+      <workItem from="1648504469591" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -198,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647293644637</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Left/Right Prototype Update 1">
+      <created>1647366508573</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647366508573</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +246,8 @@
     <MESSAGE value="Updated projected completion time" />
     <MESSAGE value="Final Construction Update" />
     <MESSAGE value="Left/Right Prototype Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Left/Right Prototype Upload" />
+    <MESSAGE value="Left/Right Prototype Update 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Left/Right Prototype Update 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1646772014364">
@@ -246,10 +258,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646772409513" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1647293648809">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1647366512325">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647293648809" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647366512325" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1646092440507" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643085714124">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -259,10 +271,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2558" y="119" width="644" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647365520935" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644018009443">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1647811759067">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1644018009443" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647811759067" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

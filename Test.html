@@ -28,22 +28,62 @@
     </style>
 </head>
 <body>
-    <div class="diagsplit">
-        
+    <nav class="custNavBar1 navFixTop">
+        <!--
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+            </ul>
+        </div>
+        -->
+        <div class="custNavBar2">
+            <!--<h4>Daniel Wang</h4>-->
+            <h4 class="navBarText2">Daniel Wang</h4>
+        </div>
+    </nav>
+    <!--
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-right"> | | | | | | | | | | | | | |</div>
+        <div class="col-sm-1 text-left"> | | | | | | | | | | | | | | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+        <div class="col-sm-1 text-center"> | </div>
+    </div>
+    -->
+    <div class="diagsplit neutral">
         <div class="splitleft">
             <div class="splititems">
-                <h1>Left Side</h1>
-                <button id="btnsplitLeft" type="button" class="btn btn-outline-primary" style="display:none">Click Me!</button>
+                <br>
+                <br>
+                <br>
+                <h1>Experience</h1>
+                <button id="btnsplitLeft" type="button" class="btn btn-primary" style="display:none">Click Me!</button>
             </div>
         </div>
         <div class="splitright">
             <div class="splititems">
-                <h2>Right Side</h2>
-                <button id="btnsplitRight" type="button" class="btn btn-outline-primary" style="display:none">Click Me!</button>
+                <br>
+                <br>
+                <br>
+                <h1>Skills</h1>
+                <h3>Languages, Tools, and More</h3>
+                <h5 class="text-muted">Hover here to get started</h5>
+                <button id="btnsplitRight" type="button" class="btn btn-primary" style="display:none">Click Me!</button>
             </div>
         </div>
     </div>
-    
     <!--
     <div class="diagsplit splitleft">
         <div class="splitcenter">
@@ -61,22 +101,32 @@
 
 <script>
     $('.splitleft').hover(function(){
+        $('.diagsplit').toggleClass('neutral');
+        $('.diagsplit').removeClass('neutral');
         $('.diagsplit').toggleClass('leftActive');
+        //$('#btnsplitRight').fadeOut(0);
+        $('#btnsplitRight').css('display', 'none');
         $('#btnsplitLeft').fadeIn(500);
-        $('#btnsplitRight').fadeOut(0);
     })
     $('.splitright').hover(function(){
+        $('.diagsplit').toggleClass('neutral');
+        $('.diagsplit').removeClass('neutral');
         $('.diagsplit').toggleClass('rightActive');
+        //$('#btnsplitLeft').fadeOut(0);
+        $('#btnsplitLeft').css('display', 'none');
         $('#btnsplitRight').fadeIn(500);
-        $('#btnsplitLeft').fadeOut(0);
     })
     
     $('.splitleft').mouseleave(function(){
+        $('.diagsplit').toggleClass('neutral');
         $('#btnsplitLeft').fadeOut(0);
+        $('#btnsplitLeft').css('display', 'none');
     })
     
     $('.splitright').mouseleave(function(){
+        $('.diagsplit').toggleClass('neutral');
         $('#btnsplitRight').fadeOut(0);
+        $('#btnsplitRight').css('display', 'none');
     })
     
     /*
@@ -89,3 +139,11 @@
     
      */
 </script>
+
+<!--
+Tabs:
+    - 
+    - Updated Resume
+    - Contact Me
+
+-->

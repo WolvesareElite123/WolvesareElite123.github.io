@@ -1,4 +1,270 @@
-﻿.diagsplit{
+﻿//SPLIT SCREEN//
+
+@splitangle: 13.5deg; //Angle of Split
+
+body{
+    height: 100%;
+    background: linear-gradient(90deg, #1f2933 50%, #323F48 50%);
+}
+
+.diagsplit{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.tempBg{
+    background-color: #1F2933;
+}
+
+.splitleft{
+    
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: #1F2933;
+    position: relative;
+    transform: skew(-0);
+    z-index: 1;
+    transition: width 0.5s, transform 0.5s;
+    transition-delay: 0s;
+
+    &:before{
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background-color: #1F2933;
+        top: 0;
+        left: 0;
+        transform: skew(0);
+        z-index: -1;
+        transition: transform 0s;
+        transition-delay: 0s;
+    }
+}
+
+.splitright{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: #323F48;
+    transform: skew(-0);
+    position: relative;
+    z-index: 1;
+    transition: width 0.5s, transform 0.5s;
+    transition-delay: 0s;
+    
+    &:after{
+        content: "";
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background: #323F48;
+        top: 0;
+        right: 0;
+        transform: skew(0);
+        z-index: -1;
+        transition: transform 0s;
+        transition-delay: 0s;
+    }
+}
+
+.splitcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.splititems{
+    height: 100%;
+    top:50%;
+    transform: skew(0) translateY(-50%);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.5s;
+    transition-delay: 0.25s;
+    border-color: red;
+    border-style: solid;
+    
+}
+
+.leftActive{
+    .splitleft:before{
+        transform: skew(-@splitangle);
+    }
+    .splitright:after{
+        transform: skew(-@splitangle);
+    }
+    .splitleft{
+        width: 70%;
+        transform: skew(@splitangle);
+    }
+    .splitright{
+        width: 30%;
+        transform: skew(@splitangle);
+    }
+    .splititems{
+        transform: skew(-@splitangle);
+    }
+}
+
+.rightActive{
+    .splitleft:before{
+        transform: skew(@splitangle);
+    }
+    .splitright:after{
+        transform: skew(@splitangle);
+    }
+    .splitleft{
+        width: 30%;
+        transform: skew(-@splitangle);
+    }
+    .splitright{
+        width: 70%;
+        transform: skew(-@splitangle);
+    }
+    
+    .splititems{
+        transform: skew(@splitangle);
+    }
+}
+
+.neutral{
+    .splitleft:before{
+        transform: skew(0);
+    }
+    .splitright:after{
+        transform: skew(0);
+    }
+    .splitleft{
+        width: 50%;
+        transform: skew(0);
+    }
+    .splitright{
+        width: 50%;
+        transform: skew(0);
+    }
+    .splititems{
+        transform: skew(0);
+    }
+}
+//NAVBAR OUTER//
+.custNavBar1{
+    //Trapezoid
+    border-top: 50px solid whitesmoke;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 80%;
+    filter: drop-shadow(0 0 20px #222); //shadow
+}
+
+/*
+.custNavBar1 li a span{
+    display: inline-block;
+    position: relative;
+    padding: 15px 40px;
+}
+
+.custNavBar1 li a:after{
+    content:"";
+    width: 0;
+    height: 0;
+    border-top: 100px solid red;
+    border-right: 100px solid transparent;
+}
+
+.custNavBar1 li a:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-right: 25px solid transparent;
+}
+*/
+
+.navFixTop{
+    position: fixed;
+    top: 0;
+    right: 90vw;
+    left: 10vw;
+    z-index: 1030;
+}
+//NAVBAR INNER//
+.custNavBar2{
+    //Trapezoid
+    //height: 0;
+    text-align: center;
+    width: 200px;
+    color: blue;
+    position: relative;
+    top: 10px;
+    margin-left: -100px;
+    margin-top: -60px;
+    left: 50%;
+    
+    &:before{
+        content:'';
+        width: 200px;
+        height: 0px;
+        border-top: 60px solid whitesmoke; //Trap Top
+        border-left: 25px solid transparent; //Trap Left
+        border-right: 25px solid transparent; //Trap Right
+        position: absolute; //Do not Change
+        right: 0; //Do not Change
+        top: 0px; //Does Nothing
+        z-index: -1;
+        filter: drop-shadow(0 0 20px #222); //shadow
+    }
+}
+
+.navBarText2{
+    height: 0px;
+    color: lightblue;
+    //display: flex;
+    //margin-top: -10px;
+    text-align: center;
+    line-height: 50px;
+    &:before{
+        content: "";
+    }
+    z-index: 1050;
+}
+
+.navFixTop2{
+    
+    z-index: 1040;
+}
+
+
+//Archived//
+/*
+.custNavBar2{
+    //Trapezoid
+    border-top: 50px solid whitesmoke;
+    border-left: 25px solid red;
+    border-right: 25px solid red;
+    height: 0;
+    width: 20%;
+    text-align: center;
+    
+    &:after{
+        position: absolute;
+        content: "";
+        background: transparent;
+    }
+}
+
+//PRE-TRANSITION CHANGES//
+//SPLIT SCREEN//
+
+@splitangle: 13.5deg; //Angle of Split
+
+.diagsplit{
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -10,7 +276,7 @@
     height: 100%;
     background-color: #111;
     position: relative;
-    transform: skew(-9deg);
+    transform: skew(-@splitangle);
     z-index: 1;
     transition: width 0.5s;
 
@@ -22,7 +288,7 @@
         background-color: #111;
         top: 0;
         left: 0;
-        transform: skew(9deg);
+        transform: skew(@splitangle);
         z-index: -1;
     }
 }
@@ -32,7 +298,7 @@
     float: left;
     height: 100%;
     background: gray;
-    transform: skew(-9deg);
+    transform: skew(-@splitangle);
     position: relative;
     z-index: 1;
     transition: width 0.5s;
@@ -45,7 +311,7 @@
         background: gray;
         top: 0;
         right: 0;
-        transform: skew(9deg);
+        transform: skew(@splitangle);
         z-index: -1;
     }
 }
@@ -59,7 +325,7 @@
 }
 
 .splititems{
-    transform: skew(9deg);
+    transform: skew(@splitangle);
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -82,3 +348,7 @@
         width: 70%;
     }
 }
+
+
+
+*/
