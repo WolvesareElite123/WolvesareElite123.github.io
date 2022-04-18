@@ -87,9 +87,17 @@ body{
     text-align: center;
     transition: transform 0.5s;
     transition-delay: 0.25s;
+    //border-color: red;
+    //border-style: solid;
+}
+
+.debugOutline{
     border-color: red;
     border-style: solid;
-    
+}
+
+.centerTextFix{
+    margin-top: 30vh;
 }
 
 .leftActive{
@@ -161,6 +169,44 @@ body{
     height: 0;
     width: 80%;
     filter: drop-shadow(0 0 20px #222); //shadow
+}
+
+.custNavBarMid{
+    //Trapezoid
+    //height: 0;
+    text-align: center;
+    width: 200px;
+    color: blue;
+    position: relative;
+    top: 10px;
+    margin-left: -100px;
+    margin-top: -60px;
+    left: 50%;
+
+    &:before{
+        content:'';
+        width: 200px;
+        height: 0px;
+        border-top: 50px solid whitesmoke;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        position: absolute; //Do not Change
+        right: 0; //Do not Change
+        top: 0px; //Does Nothing
+        z-index: -1;
+        filter: drop-shadow(0 0 20px #222); //shadow
+    }
+}
+
+.navBarButton{
+    //margin-top:10px;
+    color: #82929E;
+    //display: flex;
+    //margin-top: -10px;
+    &:before{
+        content: "";
+    }
+    z-index: 1020;
 }
 
 /*
