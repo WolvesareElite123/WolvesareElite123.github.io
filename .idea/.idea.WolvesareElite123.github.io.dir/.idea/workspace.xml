@@ -22,7 +22,6 @@
     <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalLess.less" beforeDir="false" afterPath="$PROJECT_DIR$/personalLess.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <workItem from="1647292732092" duration="8080000" />
       <workItem from="1647789026498" duration="20698000" />
       <workItem from="1648504469591" duration="965000" />
-      <workItem from="1650313683984" duration="3166000" />
+      <workItem from="1650313683984" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648504832428</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Halfway done home page">
+      <created>1650317269668</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650317269668</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +259,8 @@
     <MESSAGE value="Left/Right Prototype Upload" />
     <MESSAGE value="Left/Right Prototype Update 1" />
     <MESSAGE value="Update Construction + Upload Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Construction + Upload Test" />
+    <MESSAGE value="Halfway done home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Halfway done home page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1646772014364">
@@ -264,10 +271,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646772409513" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1648504836957">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1650317289250">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1648504836957" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1650317289250" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1646092440507" />
     <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643085714124">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -277,10 +284,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2558" y="119" width="644" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647365520935" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1647811759067">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1650319207980">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647811759067" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1650319207980" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
