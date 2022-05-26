@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test Page</title>
+    <title>Experience</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,16 +16,521 @@
     <script type="text/javascript" src="Scripts/popper.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.js" integrity="sha512-oFCsbxZP/K+0EjvkyIHBvC3ft8LZnO+8kljz0RiJN8ffUCeX0LF1G0WlvU3jMJVaoKBrC+I2ohi4BCpKq2ZgXw==" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet/less" type="text/css" href="personalLess.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
+    <script src="Scripts/less.min.js.map"></script>
+
     <style>
         body{
-            overflow: hidden;
+            background-color: #1F2933;
         }
     </style>
-    
 </head>
+<body class="defaultSetups">
 
-<body>
-    <div class="row">
-        <div class=""
+<!--Navbar-->
+<nav class="custNavBar1 navFixTop">
+    <div class="custNavBar2">
+        <!--<h4>Daniel Wang</h4>-->
+        <h4 class="navBarText2">Daniel Wang</h4></a>
     </div>
+    <nav class="navbar navbar-expand-lg">
+        <a class="nav-link navBarButton ml-3 px-5" href="#"><h5>Qualifications</h5></a>
+        <a class="nav-link navBarButton ml-3 px-5" href="#"><h5>Timeline</h5></a>
+        <a class="nav-link navBarButton ml-auto mr-auto btn disabled" href="#" disabled><h5></h5></a>
+        <a class="nav-link navBarButton mr-3 px-5" href="#"><h5>Resume</h5></a>
+        <a class="nav-link navBarButton mr-3 px-5" href="#"><h5>About Me</h5></a>
+    </nav>
+</nav>
+
+<br>
+<br>
+
+<!--Filters-->
+<div class="container mt-5">
+    <br>
+    <h1 class="text-center">Experience</h1>
+    <h4 class="text-center text-muted">Use the filters below to view my experience in the work environment, academia, and more!</h4>
+    <h5 class="text-center text-muted">*Most Interactable Currently Disabled*</h5>
+    <br>
+
+    <h2>Filters</h2>
+    <h4>Filter by text:</h4>
+    <input class="form-control" id="textInput" type="text" placeholder="Search..." disabled>
+    <br>
+    <h4>Filter by type:</h4>
+    <div class="form-check form-check-inline form-control-lg noSelect">
+        <input class="form-check-input" type="checkbox" id="inlineCheck1" value="opt1" onclick="selectAll(this)" checked disabled>
+        <label class="form-check-label" for="inlineCheck1">All Types</label>
+    </div>
+    <div class="form-check form-check-inline form-control-lg noSelect">
+        <input class="form-check-input" type="checkbox" id="inlineCheck2" value="opt2" onclick="checkSelect(this)" checked disabled>
+        <label class="form-check-label" for="inlineCheck2">Internships</label>
+    </div>
+    <div class="form-check form-check-inline form-control-lg noSelect">
+        <input class="form-check-input" type="checkbox" id="inlineCheck3" value="opt3" onclick="checkSelect(this)" checked disabled>
+        <label class="form-check-label" for="inlineCheck3">Projects</label>
+    </div>
+    <div class="form-check form-check-inline form-control-lg noSelect">
+        <input class="form-check-input" type="checkbox" id="inlineCheck4" value="opt4" onclick="checkSelect(this)" checked disabled>
+        <label class="form-check-label" for="inlineCheck4">Organizations</label>
+    </div>
+    <br>
+    <br>
+    <div class="text-center">
+        <button type="button" class="text-center justify-content-center btn btn-outline-light" onclick="applyFilters()" disabled>
+            Apply Filters
+        </button>
+    </div>
+
+</div>
+
+<!--Divider-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <hr class="hrColor">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<!--Internships-->
+<div class="container-fluid mt-2 pl-5 pr-5">
+    <h2 class="text-center"><u>Internships</u></h2>
+    <table class="table table-hover text-white text-center noTop">
+        <thead>
+        <tr class="noWrap noSelect">
+            <th id="compName" scope="col"><span data-feather="chevron-down"></span>Company Name</th>
+            <th id="compTime" scope="col"><span data-feather="chevron-down"></span>Period/Duration</th>
+            <th id="compTitle" scope="col"><span data-feather="chevron-down"></span>Position Title</th>
+            <th id="compGroup" scope="col"><span data-feather="chevron-down"></span>Department/Group</th>
+            <th id="compDetails" scope="col">Internship Details</th>
+            <th id="compExp" scope="col" class="text-left">Tools/Languages</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="align-middle">Texas A&M System State Headquarters</td>
+            <td class="align-middle">
+                June 2021 -> May 2022
+                <br>
+                11 Months
+            </td>
+            <td class="align-middle">Student Programmer Analyst I</td>
+            <td class="align-middle">System Enterprise Applications (SEA)</td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0">Resolved issues and wrote new code to expand the capabilities of current system
+                        applications</li>
+                    <li class="list-group-item backOp0">Upgraded older, outdated hardware to meet the needs of the department</li>
+                    <li class="list-group-item backOp0">Familiarized myself with the company work culture and organization</li>
+                    <li class="list-group-item backOp0">Maintained a strong mind of cyber security risks that may be encountered
+                        within the workplace</li>
+                    <li class="list-group-item backOp0">Documented and applied the software development lifecycle as well as developer
+                        tools</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>SQL Server</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>Jenkins</li>
+                    <li>QuickBase</li>
+                    <li>Red Gate</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">Amazon.com</td>
+            <td class="align-middle">
+                May 2022 -> August 2022
+                <br>
+                12 Weeks
+            </td>
+            <td class="align-middle">Software Development Engineer Intern</td>
+            <td class="align-middle">**Temporarily Withheld To Check With NDA Terms**</td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0">**Temporarily Withheld - Possibility of NDA Restriction**</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>**Temporarily Withheld - Possibility of NDA Restriction**</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>**Temporarily Withheld - Possibility of NDA Restriction**</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">Intel Corporation</td>
+            <td class="align-middle">
+                September 2022 -> December 2022
+                <br>
+                15 Weeks
+            </td>
+            <td class="align-middle">IT Software Development Intern</td>
+            <td class="align-middle">IT Group</td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0">Position focuses on delivering high-quality application solutions
+                        using <u>Artificial Intelligence</u>/<u>Machine Learning</u>, <u>Business Intelligence</u>, and
+                        <u>Enterprise Resource Planning (ERP) Technologies</u> for revenue and demand forecast analysts and
+                        leadership in Intel's planning organization</li>
+                    <li class="list-group-item backOp0">**Further Information Temporarily Withheld To Check With NDA Terms**</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>**Temporarily Withheld To Check With NDA Terms**</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>**Temporarily Withheld To Check With NDA Terms**</li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--PROJECTS-->
+<div class="container-fluid mt-2 pl-5 pr-5">
+    <h2 class="text-center"><u>Projects</u></h2>
+    <table class="table table-hover text-white text-center noTop">
+        <thead>
+        <tr class="noWrap noSelect">
+            <th id="projName" scope="col"><span data-feather="chevron-down"></span>Project Name/Status</th>
+            <th id="projTime" scope="col"><span data-feather="chevron-down"></span>Project Type</th>
+            <th id="projTitle" scope="col"><span data-feather="chevron-down"></span>Position/Group</th>
+            <th id="projGoals" scope="col">Project Details/Contribution</th>
+            <th id="projExp" scope="col" class="text-left">Tools/Languages</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="align-middle">
+                <u>Portfolio Website (This!)</u>
+                <br>
+                [Near Completion]
+            </td>
+            <td class="align-middle">
+                Web Application
+            </td>
+            <td class="align-middle">
+                Sole Developer
+                <br>
+                Independent Project
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Goal</u>: Design a website for recruiters and application committees to
+                        access desired information easier</li>
+                    <li class="list-group-item backOp0">Built the project off of a self-made hand-drawn design</li>
+                    <li class="list-group-item backOp0">Utilized visual effects to support the flow of the site</li>
+                    <li class="list-group-item backOp0">Incorporated more "hard-code" than other projects to avoid the costs
+                        of a database</li>
+                    <li class="list-group-item backOp0">Seeking to work with cookies (for educational and "proof-of-concept"
+                        purposes) in the future</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>CSS</li>
+                    <li>LESS</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>BootStrap</li>
+                    <li>Feather</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">
+                <a href="http://www.tocgcreations.com/"><u>TOCG Creations</u></a>
+                <br>
+                [Mid Development Stage]
+            </td>
+            <td class="align-middle">
+                Web Application
+            </td>
+            <td class="align-middle">
+                Sole Developer
+                <br>
+                Independent Project
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Goal #1</u>: Learn full-stack development on my own</li>
+                    <li class="list-group-item backOp0"><u>Goal #2</u>: Produce a fully-functional website that has an actual purpose
+                        and can be used by a diverse audience (students)</li>
+                    <li class="list-group-item backOp0"><u>Purpose</u>: Allow students to use a GPA-calculator to determine the
+                        grades they need on future assignments to get their desired grades based on current data</li>
+                    <li class="list-group-item backOp0">Designed and developed entirely on my own as my first
+                        large-scaled independent project</li>
+                    <li class="list-group-item backOp0">Built based entirely off of self-taught knowledge</li>
+                    <li class="list-group-item backOp0">Incorporates the use of a database with encryption</li>
+                    <li class="list-group-item backOp0">Utilizes a database that is hosted on a self-managed server</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>SQL Server</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>BootStrap</li>
+                    <li>Feather</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">
+                <a href="https://medliteracy.org/"><u>The Medical Literacy and Access Project (MLAP)</u></a>
+                <br>
+                [Complete]
+            </td>
+            <td class="align-middle">
+                Web Application
+            </td>
+            <td class="align-middle">
+                Director for Digital Services
+                <br>
+                The Medical Literacy and Access Project
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Purpose</u>: Create an immigrant-friendly site to make medical care
+                        more accessible equitable for all</li>
+                    <li class="list-group-item backOp0">Created the algorithms necessary to read US News (our partner) query parameters</li>
+                    <li class="list-group-item backOp0">Created functions to create our own strings using imported parameters</li>
+                    <li class="list-group-item backOp0">Incorporated Google's Language Translation API</li>
+                    <li class="list-group-item backOp0">Designed and created an accessible web-form</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>BootStrap</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">
+                MazeBot
+                <br>
+                [Mid Development Stage]
+            </td>
+            <td class="align-middle">
+                Robotics
+            </td>
+            <td class="align-middle">
+                Software Developer
+                <br>
+                TURTLE Robotics
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Goal #1</u>: Learn Robot Operating Software (ROS) and use it to create
+                        a fully functional robot</li>
+                    <li class="list-group-item backOp0"><u>Goal #2</u>: Work with a variety of engineering majors to create a fully
+                        functional and autonomous robot</li>
+                    <li class="list-group-item backOp0"><u>Purpose</u> (Of the robot): Be able to navigate and map an unknown
+                        maze with the use of LIDAR</li>
+                    <li class="list-group-item backOp0">Constructed a program to utilize ROS</li>
+                    <li class="list-group-item backOp0">Configured the LIDAR to COLLECT data</li>
+                    <li class="list-group-item backOp0">Utilized the Jetson Nano to PROCESS data</li>
+                    <li class="list-group-item backOp0">Transmitted processed data to motor controllers</li>
+                    <li class="list-group-item backOp0">Utilized a LINUX Virtual Machine to run simulations</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>Robot Operating Software (ROS)</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>LIDAR</li>
+                    <li>Jetson Nano</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">
+                Insomniac
+                <br>
+                [Design Stage]
+            </td>
+            <td class="align-middle">
+                Mobile Application
+            </td>
+            <td class="align-middle">
+                Sole Developer
+                <br>
+                Independent Project
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Goal #1</u>: Learn the principles of app development on my own</li>
+                    <li class="list-group-item backOp0"><u>Purpose</u>: Create a simple clock application on smart phones that
+                        can discreetly alert an individual when a certain amount of time has passed in case they haven't fallen
+                        asleep</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>TBD</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">
+                Message Encryption/Decryption
+                <br>
+                [Complete]
+            </td>
+            <td class="align-middle">
+                Algorithm
+            </td>
+            <td class="align-middle">
+                Sole Developer
+                <br>
+                Independent Project
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Goal</u>: Create an encryption algorithm that can encrypt <u>any</u>
+                        character that is input from the standard QWERTY keyboard</li>
+                    <li class="list-group-item backOp0">Utilized mathematics and computer science knowledge to design and implement
+                        a fully functional encryption algorithm</li>
+                    <li class="list-group-item backOp0">Incorporated knowledge gained from Cryptography courses and other
+                        research to make the most secure algorithm possible</li>
+                    <li class="list-group-item backOp0">Thoroughly and frequently tested the algorithm for weaknesses/bugs</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>C++</li>
+                </ul>
+                <h5 class="text-muted">*Note: The algorithm design can be implemented in <u>any</u> language - including
+                    other High Level Languages, Machine Language, and more*</h5>
+            </td>
+        </tr>
+        <tr>
+            <td class="align-middle">
+                Machine Learning Project
+                <br>
+                [Early Development Stage]
+            </td>
+            <td class="align-middle">
+                Machine Learning
+            </td>
+            <td class="align-middle">
+                Sole Developer
+                <br>
+                Independent Project
+            </td>
+            <td class="align-middle">
+                <ul class="list-group list-group-flush backOp0">
+                    <li class="list-group-item backOp0"><u>Goal</u>: Learn machine learning</li>
+                    <li class="list-group-item backOp0"><u>Purpose</u>: Create a machine learning algorithm devoted to predicting
+                        whether or not a user will click an advertisement based on data from demographics and previous trends</li>
+                    <li class="list-group-item backOp0">Created and tested various algorithms to attempt predictions</li>
+                    <li class="list-group-item backOp0">Created visualizations of predictions and trends</li>
+                </ul>
+            </td>
+            <td class="text-left align-middle">
+                <h5>Languages</h5>
+                <ul>
+                    <li>Python</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>Pandas</li>
+                    <li>Matplotlib</li>
+                    <li>Jupiter Notebook</li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
 </body>
+</html>
+
+<script>
+
+    feather.replace();
+
+
+    $(document).ready(function () {
+        $("#text1").fadeIn(2000);
+        $("#text2").fadeIn(5000);
+        $("#text3").fadeIn(8000);
+        $("#button1").fadeIn(11000);
+    });
+
+
+
+    function selectAll(checkbox)
+    {
+        if(checkbox.checked)
+        {
+            document.getElementById("inlineCheck2").checked = true;
+            document.getElementById("inlineCheck3").checked = true;
+            document.getElementById("inlineCheck4").checked = true;
+        }
+    }
+
+    function checkSelect(checkbox)
+    {
+        if(!checkbox.checked)
+        {
+            document.getElementById("inlineCheck1").checked = false;
+        }
+    }
+
+</script>
+
+<script type="text/javascript" src="Experiences.js"></script>

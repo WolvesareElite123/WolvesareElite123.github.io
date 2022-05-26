@@ -20,8 +20,305 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Experiences.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/activity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/airplay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/alert-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/alert-octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/alert-triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/anchor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/aperture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-down-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-down-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-down-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-left-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-right-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-up-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-up-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/at-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/award.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bar-chart-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bar-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/battery-charging.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/battery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bell-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bluetooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/book-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/camera-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/check-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/check-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevron-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevron-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevron-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevron-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevrons-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevrons-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevrons-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chevrons-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/chrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cloud-drizzle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cloud-lightning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cloud-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cloud-rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cloud-snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/codepen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/codesandbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/coffee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/columns.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/command.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-down-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-down-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-left-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-left-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-right-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-right-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-up-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/corner-up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/cpu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/crop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/crosshair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/database.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/disc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/divide-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/divide-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/divide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/dollar-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/download-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/droplet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/edit-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/edit-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/external-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/eye-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/fast-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/feather.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/feather.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/figma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/file-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/file-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/file-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/film.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/folder-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/folder-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/framer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/frown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/git-branch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/git-commit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/git-merge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/git-pull-request.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/gitlab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/hard-drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/hash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/help-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/hexagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/inbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/layers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/layout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/life-buoy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/link-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/log-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/log-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/map-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/maximize-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/maximize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/meh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/message-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/message-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/mic-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/minimize-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/minimize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/minus-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/minus-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/monitor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/more-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/more-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/mouse-pointer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/move.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/navigation-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/navigation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/package.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/paperclip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/pause-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/pen-tool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/percent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone-forwarded.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone-incoming.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone-missed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone-outgoing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/pie-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/play-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/plus-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/plus-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/pocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/refresh-ccw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/refresh-cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/repeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/rewind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/rotate-ccw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/rotate-cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/scissors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/share-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/shield-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/sidebar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/skip-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/skip-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/sliders.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/smartphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/speaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/stop-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/sunrise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/sunset.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/terminal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/thermometer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/thumbs-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/thumbs-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/toggle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/toggle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/tool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/trash-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/trello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/trending-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/trending-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/truck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/twitch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/type.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/umbrella.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/upload-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/user-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/user-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/user-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/user-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/users.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/video-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/voicemail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/volume-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/volume-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/volume-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/watch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/wifi-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/wind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/x-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/x-octagon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/x-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/zap-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/zap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feather/zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Qualifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Skills.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiences.html" beforeDir="false" afterPath="$PROJECT_DIR$/Experiences.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalLess.less" beforeDir="false" afterPath="$PROJECT_DIR$/personalLess.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +330,15 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../TOCGCreations/TOCGCreations/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,13 +346,17 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/FirstConstruction.html" />
         <option value="$PROJECT_DIR$/Scripts/UnderConstruction.html" />
-        <option value="$PROJECT_DIR$/Experiences.html" />
-        <option value="$PROJECT_DIR$/Content/personal.css" />
-        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
-        <option value="$PROJECT_DIR$/personalLess.less" />
         <option value="$PROJECT_DIR$/UnderConstruction.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Skills.html" />
+        <option value="$PROJECT_DIR$/Qualifications.html" />
+        <option value="$PROJECT_DIR$/Test.js" />
+        <option value="$PROJECT_DIR$/personalLess.less" />
         <option value="$PROJECT_DIR$/Test.html" />
+        <option value="$PROJECT_DIR$/Experiences.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Content/personal.css" />
+        <option value="$PROJECT_DIR$/Experiences.html" />
       </list>
     </option>
   </component>
@@ -101,6 +406,12 @@
       <workItem from="1648504469591" duration="965000" />
       <workItem from="1650313683984" duration="6949000" />
       <workItem from="1650393220847" duration="3391000" />
+      <workItem from="1651451655940" duration="97000" />
+      <workItem from="1651453081313" duration="3044000" />
+      <workItem from="1653257272099" duration="7240000" />
+      <workItem from="1653419022485" duration="193000" />
+      <workItem from="1653422617755" duration="7157000" />
+      <workItem from="1653516745507" duration="6394000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -242,7 +553,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650393884237</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated Timeline">
+      <created>1651451682102</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651451682102</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated modal text">
+      <created>1653419195018</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653419195018</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +610,9 @@
     <MESSAGE value="99% Home Page" />
     <MESSAGE value="Updated Construction" />
     <MESSAGE value="Test -&gt; Index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test -&gt; Index" />
+    <MESSAGE value="Updated Timeline" />
+    <MESSAGE value="Updated modal text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated modal text" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2677" y="309" key="#Web_Browsers" timestamp="1650421486496">
@@ -300,23 +627,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1646772409513" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1650393888820">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1653525245719">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1650328965369" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1653525245719" />
+    <state x="2656" y="341" key="Vcs.Push.Dialog.v2" timestamp="1653419197139">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651451740682" />
+    <state x="2656" y="341" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1653419197139" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1650393888820" />
-    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643085714124">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2697" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1643085714124" />
     <state x="2558" y="119" width="644" height="801" key="find.popup" timestamp="1647365520935">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2558" y="119" width="644" height="801" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1647365520935" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1650319207980">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2751" y="303" width="896" height="913" key="search.everywhere.popup" timestamp="1653525861672">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1650319207980" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1651454025221" />
+    <state x="2751" y="303" width="896" height="913" key="search.everywhere.popup/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1653525861672" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

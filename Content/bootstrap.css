@@ -152,14 +152,19 @@ sup {
   top: -.5em;
 }
 
+/*
+Originally:
+color: #007bff;*/
 a {
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
-
+/*
+Originally:
+color: #0056b3;*/
 a:hover {
-  color: #0056b3;
+  color: #7A93AC;
   text-decoration: underline;
 }
 
@@ -1740,9 +1745,14 @@ pre code {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+/*Edited, 
+color: #fff;
+background-color: rgba(0, 0, 0, 0.075);
+323F48
+*/
 .table-hover tbody tr:hover {
-  color: #212529;
-  background-color: rgba(0, 0, 0, 0.075);
+  color: #fff;
+  background-color: #323F48;
 }
 
 .table-primary,

@@ -1,46 +1,57 @@
 ﻿
-
-/*
-.diagsplit{
-    
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
+.noSelect{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
-.splitleft{
-    left: 0;
-    background-color: #111;
+.table-hover{
+    color: #fff; !important;
 }
 
-.splitright{
-    right: 0;
-    background-color: gray;
+.list-group{
+    background-color: #1F2933;
 }
 
-.splitcenter{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.list-group-item{
+    background-color: #1F2933;
 }
 
- .splitcenter img{
-     width: 150px;
-     border-radius: 50%;
- }
- 
- .splititems{
-     
- }
- 
-.leftActive{
-    
+.list-group-flush{
+    background-color: #1F2933;
 }
 
-*/
+.op0{
+    opacity: 0;
+}
+
+.op25{
+    opacity: 0.25;
+}
+
+.op50{
+    opacity: 0.5;
+}
+
+.op75{
+    opacity: 0.75;
+}
+
+.opFull{
+    opacity: 1;
+}
+
+
+.backOp0{
+    background: rgba(31,41,51,0);
+}
+
+.noTop{
+    border-top: none; !important;
+}
+
+.noWrap{
+    white-space: nowrap;
+}

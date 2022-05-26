@@ -1,11 +1,15 @@
-﻿//SPLIT SCREEN//
+﻿/*
+Color Palette
+#ffffff -> White
+#1f2933 -> Gunmetal
+#323F48 -> Charcoal
+#7A93AC -> Shadow Blue
+
+ */
+
+//SPLIT SCREEN//
 
 @splitangle: 13.5deg; //Angle of Split
-
-body{
-    height: 100%;
-    background: linear-gradient(90deg, #1f2933 50%, #323F48 50%);
-}
 
 .diagsplit{
     width: 100%;
@@ -13,8 +17,24 @@ body{
     overflow: hidden;
 }
 
+.hrColor{
+    border-color: #fff;
+}
+
+
 .tempBg{
     background-color: #1F2933;
+}
+
+.defaultSetups{
+    background-color: #1F2933;
+    color: #fff;
+    &:before{
+        background-color: #1F2933;
+    }
+    &:after{
+        background-color: #1F2933;
+    }
 }
 
 .splitleft{
@@ -286,6 +306,53 @@ body{
     z-index: 1040;
 }
 
+//hovering
+.thover{
+    transition: all 0.2s ease-in-out;
+    &:before,
+    &:after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 0px;
+        height: 5px;
+        margin: 5px 0 0;
+        transition: all 0.2s ease-in-out;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: darken(orange,5%);
+    }
+    &.thover-3 {
+        &:before {
+            left: 50%;
+        }
+        &:after {
+            right: 50%;
+        }
+    }
+    &:hover {
+        cursor: pointer;
+        .hover {
+            &:before,
+            &:after {
+                width: 100%;
+                opacity: 1;
+            }
+            &.hover-3,
+            &.hover-4 {
+                &:before,
+                &:after {
+                    width: 50%;
+                }
+            }
+        }
+    }
+    z-index: 2000;
+}
+
+.activeNavLink{
+    color: #0056b3;
+}
 
 //Archived//
 /*
