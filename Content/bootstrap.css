@@ -73,6 +73,11 @@ hr {
   overflow: visible;
 }
 
+p1, p2, p3, p4, p5, p6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -356,6 +361,37 @@ template {
 
 [hidden] {
   display: none !important;
+}
+
+p1, p2, p3, p4, p5, p6,
+.p1, .p2, .p3, .p4, .p5, .p6 {
+  margin-bottom: 0.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+p1, .p1 {
+  font-size: 2.5rem;
+}
+
+p2, .p2 {
+  font-size: 2rem;
+}
+
+p3, .p3 {
+  font-size: 1.75rem;
+}
+
+p4, .p4 {
+  font-size: 1.5rem;
+}
+
+p5, .p5 {
+  font-size: 1.25rem;
+}
+
+p6, .p6 {
+  font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -10290,6 +10326,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+}
+
+.text-muted2{
+  color: #828c96 !important;
 }
 
 .text-black-50 {

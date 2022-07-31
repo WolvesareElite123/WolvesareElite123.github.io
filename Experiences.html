@@ -17,7 +17,7 @@
     <script type="text/javascript" src="Scripts/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.js" integrity="sha512-oFCsbxZP/K+0EjvkyIHBvC3ft8LZnO+8kljz0RiJN8ffUCeX0LF1G0WlvU3jMJVaoKBrC+I2ohi4BCpKq2ZgXw==" crossorigin="anonymous"></script>
 
-
+    
 
     <link rel="stylesheet/less" type="text/css" href="personalLess.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
@@ -54,38 +54,20 @@
     <br>
     <h1 class="text-center">Experience</h1>
     <h4 class="text-center text-muted">Use the filters below to view my experience in the work environment, academia, and more!</h4>
-    <h5 class="text-center text-muted">*Most Interactable Currently Disabled*</h5>
+    <h4 class="text-center text-muted"><strong>Note: All information displayed have been thoroughly investigated 
+        for NDA conflicts - some information about the scale of my work may be omitted</strong></h4>
     <br>
-
-    <h2>Filters</h2>
-    <h4>Filter by text:</h4>
-    <input class="form-control" id="textInput" type="text" placeholder="Search..." disabled>
-    <br>
-    <h4>Filter by type:</h4>
-    <div class="form-check form-check-inline form-control-lg noSelect">
-        <input class="form-check-input" type="checkbox" id="inlineCheck1" value="opt1" onclick="selectAll(this)" checked disabled>
-        <label class="form-check-label" for="inlineCheck1">All Types</label>
-    </div>
-    <div class="form-check form-check-inline form-control-lg noSelect">
-        <input class="form-check-input" type="checkbox" id="inlineCheck2" value="opt2" onclick="checkSelect(this)" checked disabled>
-        <label class="form-check-label" for="inlineCheck2">Internships</label>
-    </div>
-    <div class="form-check form-check-inline form-control-lg noSelect">
-        <input class="form-check-input" type="checkbox" id="inlineCheck3" value="opt3" onclick="checkSelect(this)" checked disabled>
-        <label class="form-check-label" for="inlineCheck3">Projects</label>
-    </div>
-    <div class="form-check form-check-inline form-control-lg noSelect">
-        <input class="form-check-input" type="checkbox" id="inlineCheck4" value="opt4" onclick="checkSelect(this)" checked disabled>
-        <label class="form-check-label" for="inlineCheck4">Organizations</label>
-    </div>
-    <br>
-    <br>
-    <div class="text-center">
-        <button type="button" class="text-center justify-content-center btn btn-outline-light" onclick="applyFilters()" disabled>
-            Apply Filters
-        </button>
-    </div>
-
+    <h3 class="text-center">Displaying:</h3>
+    <nav aria-label="Pagination">
+        <ul class="pagination justify-content-center">
+            <li class="page-item active" aria-current="page" id="display0">
+                <a class="page-link" href="#" onclick="displaySwitch(0)">Internships</a>
+            </li>
+            <li class="page-item" aria-current="page" id="display1">
+                <a class="page-link" href="#" onclick="displaySwitch(1)">Projects</a>
+            </li>
+        </ul>
+    </nav>
 </div>
 
 <!--Divider-->
@@ -102,118 +84,810 @@
 <br>
 
 <!--Internships-->
-<div class="container-fluid mt-2 pl-5 pr-5">
+<div class="container-fluid mt-2 pl-5 pr-5" id="internshipDisplay" style="display:block">
     <h2 class="text-center"><u>Internships</u></h2>
-    <table class="table table-hover text-white text-center noTop">
-        <thead>
-        <tr class="noWrap noSelect">
-            <th id="compName" scope="col"><span data-feather="chevron-down"></span>Company Name</th>
-            <th id="compTime" scope="col"><span data-feather="chevron-down"></span>Period/Duration</th>
-            <th id="compTitle" scope="col"><span data-feather="chevron-down"></span>Position Title</th>
-            <th id="compGroup" scope="col"><span data-feather="chevron-down"></span>Department/Group</th>
-            <th id="compDetails" scope="col">Internship Details</th>
-            <th id="compExp" scope="col" class="text-left">Tools/Languages</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td class="align-middle">Texas A&M System State Headquarters</td>
-            <td class="align-middle">
-                June 2021 -> May 2022
+    <nav aria-label="Pagination">
+        <ul class="pagination pagination-sm justify-content-center">
+            <li class="page-item active" aria-current="page" id="intDisplay0">
+                <a class="page-link" href="#" onclick="internSwitch(0)">Amazon</a>
+            </li>
+            <li class="page-item" aria-current="page" id="intDisplay1">
+                <a class="page-link" href="#" onclick="internSwitch(1)">Intel</a>
+            </li>
+            <li class="page-item" aria-current="page" id="intDisplay2">
+                <a class="page-link" href="#" onclick="internSwitch(2)">TAMUS</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="Amazon" style="display:block">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Amazon.com</h2>
+                <h4 class="text-muted2">Software Development Engineer Intern</h4>
+                <h4 class="text-muted2">QuBIT Org - Ikigai Kirin (Formerly RAMP)</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">May 2022 - August 2022</h3>
+                <h3 class="text-muted2 text-right">Internship</h3>
+                <h3 class="text-muted2 text-right">12 Weeks</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About My Role | What is QuBIT?</h2>
+                <p class="p4">The <b>Q</b>uantitative <b>B</b>usiness <b>I</b>ntelligence <b>T</b>ools (QuBIT) Organization is responsible for creating
+                    products related to Amazon <b>G</b>lobal <b>C</b>ustomer <b>F</b>ulfillment (GCF) technologies. </p>
+                <p class="p4">As a member of the <b>R</b>isk and <b>M</b>itigation <b>P</b>latforms (RAMP) team
+                    (now called Ikigai), I belong to the Kirin subteam and work primarily with the <b>C</b>entralized <b>A</b>utomated
+                    <b>S</b>ort <b>P</b>rocessing <b>E</b>valuation and <b>R</b>eporting (CASPER) tool - an end-to-end management tool for
+                    fulfillment center managers to see near real-time data paired with analytics</p>
+                <p class="p4"><b>As an intern</b>, my role for this internship was to work on developing a dashboard for CASPER with aggregations
+                    of data from various API sources, create my own design documents to propose various back-end changes in data handling,
+                    and performing regular demo's of my progress</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0"><u>Trained</u> in various technologies, see 'My Trainings'</li>
+                    <li class="list-group-item backOp0">Dove into Amazon's Authentication services and how they function</li>
+                    <li class="list-group-item backOp0">Studied CASPER architecture to understand how all components affected my project</li>
+                    <li class="list-group-item backOp0">Researched CASPER functionality in the field, its entitlement numbers, my dashboards entitlement numbers, and
+                        presented it to the department in a midpoint demo</li>
+                    <li class="list-group-item backOp0">Identified improvements for internal API's</li>
+                    <li class="list-group-item backOp0">Utilized API's from several sources to display aggregations with respect to color logic determined by
+                        other sources of data</li>
+                    <li class="list-group-item backOp0">Created a visually efficient dashboard in alignment with the customers needs</li>
+                    <li class="list-group-item backOp0">Utilized AWS technologies to aid in the development of the dashboard</li>
+                </ul>
                 <br>
-                11 Months
-            </td>
-            <td class="align-middle">Student Programmer Analyst I</td>
-            <td class="align-middle">System Enterprise Applications (SEA)</td>
-            <td class="align-middle">
-                <ul class="list-group list-group-flush backOp0">
-                    <li class="list-group-item backOp0">Resolved issues and wrote new code to expand the capabilities of current system
-                        applications</li>
-                    <li class="list-group-item backOp0">Upgraded older, outdated hardware to meet the needs of the department</li>
-                    <li class="list-group-item backOp0">Familiarized myself with the company work culture and organization</li>
+                <h2 class="text-center" id="Trainings">Trainings</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="amznTrain1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">Day One Machine Learning</button>
+                    <button id="amznTrain2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">AWS Technical Essentials for CDO</button>
+                    <button id="amznTrain3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">AppSec University</button>
+                </ul>
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center">Administrative Work</h2>
+                <ul class="list-group p4 backOp0">
+                    <li>Studied documentation (High Level Design, Product Requirements Document) related to my project as well as how
+                        to write them</li>
+                    <li>Regularly Demo'ed and presented my work to varying levels of management and engineers</li>
+                    <li>Identified missing components in onboarding documentation for CASPER installation</li>
+                    <li>Contributed additional clarifying steps to team documentation of CASPER</li>
+                    <li>Worked closely with stakeholders throughout development to determine necessary changes</li>
+                    <li>Proposed API and back-end changes to improve the efficiency in our products as well as customer experience</li>
+                </ul>
+                <br>
+                <h2 class="text-center">Languages, Tools, and More</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="amznTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">React</button>
+                    <button id="amznTool2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">TypeScript</button>
+                    <button id="amznTool3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Amazon AWS</button>
+                    <button id="amznTool4" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Amazon Lambdas</button>
+                    <button id="amznTool5" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">HTML</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="Intel" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Intel</h2>
+                <h4 class="text-muted2">IT Software Development Intern</h4>
+                <h4 class="text-muted2">IT Group</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">September 2022 - December 2022</h3>
+                <h3 class="text-muted2 text-right">Internship</h3>
+                <h3 class="text-muted2 text-right">15 Weeks</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About My Role</h2>
+                <p class="p4">Position focuses on delivering high-quality application solutions
+                    using <u>Artificial Intelligence</u>/<u>Machine Learning</u>, <u>Business Intelligence</u>, and
+                    <u>Enterprise Resource Planning (ERP) Technologies</u> for revenue and demand forecast analysts and
+                    leadership in Intel's planning organization</p>
+                <p class="p4">I am currently set to begin this position on September 6th and end roughly mid-December </p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group p4 backOp0">
+                    <li>N/A</li>
+                </ul>
+                <br>
+                <h2 class="text-center" id="IntelTrain">Trainings</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="intelTrain1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content" disabled>N/A</button>
+                </ul>
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center">Administrative Work</h2>
+                <ul class="list-group p4 backOp0">
+                    <li>N/A</li>
+                </ul>
+                <br>
+                <h2 class="text-center">Languages, Tools, and More</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="intelTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content" disabled>N/A</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="TAMUS" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Texas A&M System State Headquarters</h2>
+                <h4 class="text-muted2">Student Programmer Analyst I</h4>
+                <h4 class="text-muted2">System Enterprise Applications (SEA)</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">June 2021 - May 2022</h3>
+                <h3 class="text-muted2 text-right">Internship</h3>
+                <h3 class="text-muted2 text-right">11.5 Months</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About My Role | What is SEA?</h2>
+                <p class="p4">The <b>S</b>ystem <b>E</b>nterprise <b>A</b>pplications (SEA) Department is one of several IT departments
+                under the Texas A&M Systems that works primarily in supporting the system with software solutions.</p>
+                <p class="p4"><b>As an intern</b>, my role for this internship was to perform maintenance and upgrades to current existing
+                applications within the department</p>
+                <p class="p4">With this as my first internship, most of the skills I learned were the many "firsts" that a new grad/intern would
+                 experience</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group p4 backOp0">
+                    <li class="list-group-item backOp0">Performed regular maintenance and resolved issues with system applications</li>
+                    <li class="list-group-item backOp0">Wrote new code to expand the capabilities of current system applications</li>
+                    <li class="list-group-item backOp0">Upgraded outdated hardware to meet the needs of the department</li>
                     <li class="list-group-item backOp0">Maintained a strong mind of cyber security risks that may be encountered
                         within the workplace</li>
+                </ul>
+                <br>
+                <h2 class="text-center" id="tamusTrain">Trainings</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="tamusTrain1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">MVC Development</button>
+                    <button id="tamusTrain2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">Cybersecurity Risks</button>
+                    <button id="tamusTrain3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">Physical Security Risks</button>
+                </ul>
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center">Administrative Work</h2>
+                <ul class="list-group p4 backOp0">
+                    <li class="list-group-item backOp0">Familiarized myself with the company work culture and organization</li>
+                    
                     <li class="list-group-item backOp0">Documented and applied the software development lifecycle as well as developer
                         tools</li>
                 </ul>
-            </td>
-            <td class="text-left align-middle">
-                <h5>Languages</h5>
-                <ul>
-                    <li>C#</li>
-                    <li>HTML</li>
-                    <li>SQL Server</li>
-                </ul>
-                <h5>Tools</h5>
-                <ul>
-                    <li>Jenkins</li>
-                    <li>QuickBase</li>
-                    <li>Red Gate</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td class="align-middle">Amazon.com</td>
-            <td class="align-middle">
-                May 2022 -> August 2022
                 <br>
-                12 Weeks
-            </td>
-            <td class="align-middle">Software Development Engineer Intern</td>
-            <td class="align-middle">**Temporarily Withheld To Check With NDA Terms**</td>
-            <td class="align-middle">
-                <ul class="list-group list-group-flush backOp0">
-                    <li class="list-group-item backOp0">**Temporarily Withheld - Possibility of NDA Restriction**</li>
+                <h2 class="text-center">Languages, Tools, and More</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="tamusTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">.NET</button>
+                    <button id="tamusTool2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">SQL Server</button>
+                    <button id="tamusTool3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">C#</button>
+                    <button id="tamusTool4" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Jenkins</button>
+                    <button id="tamusTool5" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">HTML</button>
+                    <button id="tamusTool6" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">QuickBase</button>
+                    <button id="tamusTool7" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Red Gate</button>
                 </ul>
-            </td>
-            <td class="text-left align-middle">
-                <h5>Languages</h5>
-                <ul>
-                    <li>**Temporarily Withheld - Possibility of NDA Restriction**</li>
-                </ul>
-                <h5>Tools</h5>
-                <ul>
-                    <li>**Temporarily Withheld - Possibility of NDA Restriction**</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td class="align-middle">Intel Corporation</td>
-            <td class="align-middle">
-                September 2022 -> December 2022
-                <br>
-                15 Weeks
-            </td>
-            <td class="align-middle">IT Software Development Intern</td>
-            <td class="align-middle">IT Group</td>
-            <td class="align-middle">
-                <ul class="list-group list-group-flush backOp0">
-                    <li class="list-group-item backOp0">Position focuses on delivering high-quality application solutions
-                        using <u>Artificial Intelligence</u>/<u>Machine Learning</u>, <u>Business Intelligence</u>, and
-                        <u>Enterprise Resource Planning (ERP) Technologies</u> for revenue and demand forecast analysts and
-                        leadership in Intel's planning organization</li>
-                    <li class="list-group-item backOp0">**Further Information Temporarily Withheld To Check With NDA Terms**</li>
-                </ul>
-            </td>
-            <td class="text-left align-middle">
-                <h5>Languages</h5>
-                <ul>
-                    <li>**Temporarily Withheld To Check With NDA Terms**</li>
-                </ul>
-                <h5>Tools</h5>
-                <ul>
-                    <li>**Temporarily Withheld To Check With NDA Terms**</li>
-                </ul>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <!--
+    <div id="carouselControls" class="carousel slide" data-interval="false" data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                
+            </div>
+            <div class="carousel-item active">
+                
+            </div>
+            <div class="carousel-item">
+                
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    -->
+    
+    
+    
+    
+    <br>
+    <br>
+    <br>
+    
 </div>
 
 <!--PROJECTS-->
-<div class="container-fluid mt-2 pl-5 pr-5">
+<div class="container-fluid mt-2 pl-5 pr-5" id="projectDisplay" style="display:none">
     <h2 class="text-center"><u>Projects</u></h2>
-    <table class="table table-hover text-white text-center noTop">
+    <nav aria-label="Pagination">
+        <ul class="pagination pagination-sm justify-content-center">
+            <li class="page-item active" aria-current="page" id="projDisplay0">
+                <a class="page-link" href="#" onclick="projectSwitch(0)">Portfolio</a>
+            </li>
+            <li class="page-item" aria-current="page" id="projDisplay1">
+                <a class="page-link" href="#" onclick="projectSwitch(1)">TOCG</a>
+            </li>
+            <li class="page-item" aria-current="page" id="projDisplay2">
+                <a class="page-link" href="#" onclick="projectSwitch(2)">MedLiteracy</a>
+            </li>
+            <li class="page-item" aria-current="page" id="projDisplay3">
+                <a class="page-link" href="#" onclick="projectSwitch(3)">MazeBot</a>
+            </li>
+            <li class="page-item" aria-current="page" id="projDisplay4">
+                <a class="page-link" href="#" onclick="projectSwitch(4)">Insomniac</a>
+            </li>
+            <li class="page-item" aria-current="page" id="projDisplay5">
+                <a class="page-link" href="#" onclick="projectSwitch(5)">Encryption</a>
+            </li>
+            <li class="page-item" aria-current="page" id="projDisplay6">
+                <a class="page-link" href="#" onclick="projectSwitch(6)">ML</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="Portfolio" style="display:block">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Portfolio</h2>
+                <h4 class="text-muted2">Sole Developer</h4>
+                <h4 class="text-muted2">Independent Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Current Work</h3>
+                <h3 class="text-muted2 text-right">Web Application</h3>
+                <h3 class="text-muted2 text-right">Status: Under Renovation</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">The desire to have a web-based portolio rose out of wanting to not only consolidate more detailed information
+                from my resume, but also to display "proof of concepts" and web development experience</p>
+                <p class="p4">The site is designed in an ever-evolving fashion in which new ideas are constantly being implemented.
+                The goal of the site is to display information with not only HTML but a mixture of JavaScript and CSS as well</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Built the project off of a <u>self-made hand-drawn</u> design</li>
+                    <li class="list-group-item backOp0">Utilized <u>visual effects</u> to support the flow of the site</li>
+                    <li class="list-group-item backOp0">Seeking to work with <u>cookies</u> (for educational and "proof-of-concept" purposes
+                    in the future)</li>
+                </ul>
+                <br>
+                
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="portLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="portLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">HTML</button>
+                    <button id="portLang2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">JavaScript</button>
+                    <button id="portLang3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">jQuery</button>
+                    <button id="portLang4" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">CSS</button>
+                    <button id="portLang5" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">LESS</button>
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="portTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">Bootstrap</button>
+                    <button id="portTool2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Feather</button>
+                    <button id="portTool3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Github</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="tocg" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>TOCG</h2>
+                <h4 class="text-muted2">Sole Developer</h4>
+                <h4 class="text-muted2">Independent Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Paused</h3>
+                <h3 class="text-muted2 text-right">Web Application</h3>
+                <h3 class="text-muted2 text-right">Status: Development Paused</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">At the beginning of my college career, I sought out an on-going project that could keep me preoccupied. After
+                much thought, TOCG (That One College Guy) was created to learn full-stack development, database management, and more.</p>
+                <p class="p4">The technologies behind this site were entirely self-taught but often took inspiration from courses throughout
+                my years at Texas A&M. Thus, this site was never fully released and has been constantly renovated to incorporate certain
+                programming practices (Such as mitigating SQL Injection, jQuery animations, etc.)</p>
+                <p class="p4">This project has been temporarily placed on 'hold' while development on the portfolio is ongoing.</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0"><u>Designed and developed</u> entirely on my own as my first large-scale 
+                        independent project</li>
+                    <li class="list-group-item backOp0">Utilized <u>visual effects</u> to support the flow of the site</li>
+                    <li class="list-group-item backOp0">Built based entirely off of <u>self-taught</u> knowledge</li>
+                    <li class="list-group-item backOp0">Incorporated the use of a database with custom encryption</li>
+                    <li class="list-group-item backOp0">Hosted and deployed the database on a self-managed, physical server</li>
+                </ul>
+                <br>
+
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="tocgLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="tocgLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">HTML</button>
+                    <button id="tocgLang2" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">JavaScript</button>
+                    <button id="tocgLang3" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">jQuery</button>
+                    <button id="tocgLang4" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">CSS</button>
+                    <button id="tocgLang5" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">SQL Server</button>
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="tocgTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">Bootstrap</button>
+                    <button id="tocgTool2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Feather</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="mlap" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>The Medical Literacy and Access Project (MLAP)</h2>
+                <h4 class="text-muted2">Director for Digital Services</h4>
+                <h4 class="text-muted2">The Medical Literacy and Access Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Complete!</h3>
+                <h3 class="text-muted2 text-right">Web Application</h3>
+                <h3 class="text-muted2 text-right">Status: Complete</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">The Medical Literacy and Access Project was created by a group of college students from several different
+                universities. The project was inspired by our first-generation parents struggles of finding medical care within the United
+                States after moving here as immigrants.</p>
+                <p class="p4">The <u>goal</u> of our project is to create an immigrant-friendly website that assists them in finding a
+                compatible medical professional near them. The project utilizes translation tools to convert the website to a language
+                of the users choosing then prompts them with filters to find the most ideal doctor near them</p>
+                <p class="p4">To accomplish the filtering and to have a database of doctors to use, we have partnered with <u>USA News</u>
+                to access their pre-existing database</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Created the algorithms necessary to read US News query parameters</li>
+                    <li class="list-group-item backOp0">Created functions to create our own strings using imported parameters</li>
+                    <li class="list-group-item backOp0">Incorporated Google's Language Translation API</li>
+                    <li class="list-group-item backOp0">Designed and created an accessible web-form</li>
+                </ul>
+                <br>
+
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="mlapLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="mlapLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">HTML</button>
+                    <button id="mlapLang2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">JavaScript</button>
+                    <button id="mlapLang3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">jQuery</button>
+                    </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="mlapTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">Bootstrap</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="maze" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>MazeBot</h2>
+                <h4 class="text-muted2">Software Developer</h4>
+                <h4 class="text-muted2">Turtle Robotics</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Current Work</h3>
+                <h3 class="text-muted2 text-right">Robotics</h3>
+                <h3 class="text-muted2 text-right">Status: Mid Development Stage</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">As a part of TURTLE Robotics, our team came together with the <u>goal</u> of creating a robot that was
+                capable of navigating an unknown maze through the use of LIDAR and other technologies</p>
+                <p class="p4">Development of the robot is entirely built from scratch with the exception of some core components (ex: the
+                LIDAR sensor, wires, the JETSON Nano board, etc.)</p>
+                <p class="p4">With our team divided based on major (Mechanical, Electrical, Software), our expertises were combined to
+                utilize 3D printing and a limited budget to create a functioning MazeBot</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Constructed a program to utilize ROS</li>
+                    <li class="list-group-item backOp0">Configured the LIDAR to <u>collect</u> data</li>
+                    <li class="list-group-item backOp0">Utilized the Jetson Nano to <u>process</u> data</li>
+                    <li class="list-group-item backOp0">Utilized a LINUX Virtual Machine to run simulations of our robot</li>
+                </ul>
+                <br>
+
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="mazeLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="mazeLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">Robot Operating Software (ROS)</button>
+                    <button id="mazeLang2" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">Python</button>
+                    
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="mazeTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">LIDAR</button>
+                    <button id="mazeTool2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Jetson Nano</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="insom" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Insomniac</h2>
+                <h4 class="text-muted2">Sole Developer</h4>
+                <h4 class="text-muted2">Independent Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Paused</h3>
+                <h3 class="text-muted2 text-right">Mobile Application</h3>
+                <h3 class="text-muted2 text-right">Status: Paused</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">With much of my full-stack experience coming from years of self-study and being reinforced by
+                industry experience in my internships, I decided that a mobile application would be a good project to work on.</p>
+                <p class="p4">The application is currently designed to be an alarm app of sorts but catered towards those who
+                struggle to fall asleep. Details of the project are still being finalized.</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Designed and wrote a high-level design (HLD) document for the project</li>
+                </ul>
+                <br>
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="insomLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="insomLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">N/A - Still Tentative</button>
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="insomTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">N/A - Still Tentative</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="crypto" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Message Encryption/Decryption</h2>
+                <h4 class="text-muted2">Sole Developer</h4>
+                <h4 class="text-muted2">Independent Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Complete</h3>
+                <h3 class="text-muted2 text-right">Algorithm</h3>
+                <h3 class="text-muted2 text-right">Status: Under Renovation</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">To strengthen my algorithm skills, I challenged myself with creating a difficult-to-crack encryption program
+                that could be applied to any programming language.</p>
+                <p class="p4">As with every encryption algorithm, code for decryption is necessary as well. Thus, this program holds the
+                key and lock for sending encrypted messages.</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Utilized mathematics and computer science knowledge to design and implement
+                        a fully functional encryption algorithm</li>
+                    <li class="list-group-item backOp0">Incorporated knowledge gained from Cryptography courses and other
+                        research to make the most secure algorithm possible</li>
+                    <li class="list-group-item backOp0">Thoroughly and frequently tested the algorithm for weaknesses/bugs</li>
+                    <li class="list-group-item backOp0">Note: This algorithm has been tested and proven to be capable of being
+                    implemented in not only every (tested) high level language, but machine languages and more.</li>
+                </ul>
+                <br>
+
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="cryptoLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="cryptoLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">C++</button>
+                    
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="cryptoTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">None</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="machine" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Machine Learning Project</h2>
+                <h4 class="text-muted2">Sole Developer</h4>
+                <h4 class="text-muted2">Independent Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Current Work</h3>
+                <h3 class="text-muted2 text-right">Machine Learning</h3>
+                <h3 class="text-muted2 text-right">Status: Under Development</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">With a personal interest in Machine Learning, I decided to tackle the project after being exposed to it
+                at an impromptu competition</p>
+                <p class="p4">The algorithm is devoted to predicting whether or not a user will click on an advertisement based on
+                data about their demographics and historical trends</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Created and tested various algorithms to attempt predictions</li>
+                    <li class="list-group-item backOp0">Created visualizations of predictions and trends</li>
+                </ul>
+                <br>
+
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="machineLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="machineLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">HTML</button>
+                    <button id="machineLang2" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">Python</button>
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="machineTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">Pandas</button>
+                    <button id="machineTool2" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Matplotlib</button>
+                    <button id="machineTool3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Jupiter Notebook</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+
+    feather.replace();
+
+    $('.carousel').carousel({
+        interval: false,
+    });
+
+    $("[data-toggle=popover]").popover();
+
+    $(document).ready(function () {
+        $("#text1").fadeIn(2000);
+        $("#text2").fadeIn(5000);
+        $("#text3").fadeIn(8000);
+        $("#button1").fadeIn(11000);
+    });
+
+
+
+    function selectAll(checkbox)
+    {
+        if(checkbox.checked)
+        {
+            document.getElementById("inlineCheck2").checked = true;
+            document.getElementById("inlineCheck3").checked = true;
+            document.getElementById("inlineCheck4").checked = true;
+        }
+    }
+
+    function checkSelect(checkbox)
+    {
+        if(!checkbox.checked)
+        {
+            document.getElementById("inlineCheck1").checked = false;
+        }
+    }
+
+</script>
+
+<script type="text/javascript" src="Experiences.js"></script>
+
+<!--
+<table class="table table-hover text-white text-center noTop">
         <thead>
         <tr class="noWrap noSelect">
             <th id="projName" scope="col"><span data-feather="chevron-down"></span>Project Name/Status</th>
@@ -327,10 +1001,10 @@
                 <ul class="list-group list-group-flush backOp0">
                     <li class="list-group-item backOp0"><u>Purpose</u>: Create an immigrant-friendly site to make medical care
                         more accessible equitable for all</li>
-                    <li class="list-group-item backOp0">Created the algorithms necessary to read US News (our partner) query parameters</li>
-                    <li class="list-group-item backOp0">Created functions to create our own strings using imported parameters</li>
-                    <li class="list-group-item backOp0">Incorporated Google's Language Translation API</li>
-                    <li class="list-group-item backOp0">Designed and created an accessible web-form</li>
+                    <li class="list-group-item backOp0"></li>
+                    <li class="list-group-item backOp0"></li>
+                    <li class="list-group-item backOp0"></li>
+                    <li class="list-group-item backOp0"></li>
                 </ul>
             </td>
             <td class="text-left align-middle">
@@ -493,44 +1167,4 @@
         </tr>
         </tbody>
     </table>
-</div>
-
-
-</body>
-</html>
-
-<script>
-
-    feather.replace();
-
-
-    $(document).ready(function () {
-        $("#text1").fadeIn(2000);
-        $("#text2").fadeIn(5000);
-        $("#text3").fadeIn(8000);
-        $("#button1").fadeIn(11000);
-    });
-
-
-
-    function selectAll(checkbox)
-    {
-        if(checkbox.checked)
-        {
-            document.getElementById("inlineCheck2").checked = true;
-            document.getElementById("inlineCheck3").checked = true;
-            document.getElementById("inlineCheck4").checked = true;
-        }
-    }
-
-    function checkSelect(checkbox)
-    {
-        if(!checkbox.checked)
-        {
-            document.getElementById("inlineCheck1").checked = false;
-        }
-    }
-
-</script>
-
-<script type="text/javascript" src="Experiences.js"></script>
+-->

@@ -55,3 +55,17 @@
 .noWrap{
     white-space: nowrap;
 }
+
+.padLeft{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.padRight{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.padBet{
+    margin-bottom: 10%;
+}
