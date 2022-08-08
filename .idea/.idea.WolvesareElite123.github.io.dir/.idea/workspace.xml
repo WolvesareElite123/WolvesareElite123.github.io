@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +55,11 @@
         <option value="$PROJECT_DIR$/Test.js" />
         <option value="$PROJECT_DIR$/personalLess.less" />
         <option value="$PROJECT_DIR$/Test.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Content/bootstrap.css" />
         <option value="$PROJECT_DIR$/Content/personal.css" />
         <option value="$PROJECT_DIR$/Experiences.js" />
         <option value="$PROJECT_DIR$/Experiences.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -137,6 +135,7 @@
       <workItem from="1658686886749" duration="6024000" />
       <workItem from="1658709547083" duration="5291000" />
       <workItem from="1659301287493" duration="6608000" />
+      <workItem from="1659976029080" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659309494640</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Updated Modal">
+      <created>1659976089447</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659976089447</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +342,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="index.html" />
     <MESSAGE value="Updated Temporary Construction Page" />
     <MESSAGE value="??????" />
     <MESSAGE value="Updated construction page" />
@@ -361,7 +366,8 @@
     <MESSAGE value="Completed Experiences.html HTML + Unlocked button for main page" />
     <MESSAGE value="Updated message" />
     <MESSAGE value="Updated Experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Experience" />
+    <MESSAGE value="Updated Modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Modal" />
   </component>
   <component name="WindowStateProjectService">
     <state width="512" height="464" key="DebuggerActiveHint" timestamp="1659304120602">
