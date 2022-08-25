@@ -1,0 +1,26 @@
+﻿.qhover:hover{
+    border-color: #28a745;
+    border-width: thin;
+}
+
+.qhoverDisabled:hover{
+    border-color: #dc3545;
+    border-width: thin;
+}
+
+.cardSize{
+    /*
+    height: 15rem;
+    width: 15rem;
+     */
+    max-width: 18rem;
+}
+
+.revertLink{
+    color: black;
+}
+
+.noHoverUnderline{
+    color: black !important;
+    text-decoration: none !important;
+}
