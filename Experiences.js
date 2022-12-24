@@ -105,6 +105,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.remove('active');
             document.getElementById("projDisplay5").classList.remove('active');
             document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="block";
             document.getElementById("tocg").style.display="none";
@@ -113,6 +114,7 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="none";
             document.getElementById("crypto").style.display="none";
             document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="none";
         }
         else if(num===1)
         {
@@ -124,6 +126,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.remove('active');
             document.getElementById("projDisplay5").classList.remove('active');
             document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="none";
             document.getElementById("tocg").style.display="block";
@@ -132,6 +135,7 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="none";
             document.getElementById("crypto").style.display="none";
             document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="none";
         }
         else if(num===2)
         {
@@ -143,6 +147,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.remove('active');
             document.getElementById("projDisplay5").classList.remove('active');
             document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="none";
             document.getElementById("tocg").style.display="none";
@@ -151,6 +156,7 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="none";
             document.getElementById("crypto").style.display="none";
             document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="none";
         }
         else if(num===3)
         {
@@ -162,6 +168,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.remove('active');
             document.getElementById("projDisplay5").classList.remove('active');
             document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="none";
             document.getElementById("tocg").style.display="none";
@@ -170,6 +177,7 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="none";
             document.getElementById("crypto").style.display="none";
             document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="none";
         }
         else if(num===4)
         {
@@ -181,6 +189,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.add('active');
             document.getElementById("projDisplay5").classList.remove('active');
             document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="none";
             document.getElementById("tocg").style.display="none";
@@ -189,6 +198,7 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="block";
             document.getElementById("crypto").style.display="none";
             document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="none";
         }
         else if(num===5)
         {
@@ -200,6 +210,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.remove('active');
             document.getElementById("projDisplay5").classList.add('active');
             document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="none";
             document.getElementById("tocg").style.display="none";
@@ -208,6 +219,7 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="none";
             document.getElementById("crypto").style.display="block";
             document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="none";
         }
         else if(num===6)
         {
@@ -219,6 +231,7 @@ function projectSwitch(num)
             document.getElementById("projDisplay4").classList.remove('active');
             document.getElementById("projDisplay5").classList.remove('active');
             document.getElementById("projDisplay6").classList.add('active');
+            document.getElementById("projDisplay7").classList.remove('active');
             //View
             document.getElementById("Portfolio").style.display="none";
             document.getElementById("tocg").style.display="none";
@@ -227,6 +240,28 @@ function projectSwitch(num)
             document.getElementById("insom").style.display="none";
             document.getElementById("crypto").style.display="none";
             document.getElementById("machine").style.display="block";
+            document.getElementById("advsearch").style.display="none";
+        }
+        else if(num===7)
+        {
+            //Buttons
+            document.getElementById("projDisplay0").classList.remove('active');
+            document.getElementById("projDisplay1").classList.remove('active');
+            document.getElementById("projDisplay2").classList.remove('active');
+            document.getElementById("projDisplay3").classList.remove('active');
+            document.getElementById("projDisplay4").classList.remove('active');
+            document.getElementById("projDisplay5").classList.remove('active');
+            document.getElementById("projDisplay6").classList.remove('active');
+            document.getElementById("projDisplay7").classList.add('active');
+            //View
+            document.getElementById("Portfolio").style.display="none";
+            document.getElementById("tocg").style.display="none";
+            document.getElementById("mlap").style.display="none";
+            document.getElementById("maze").style.display="none";
+            document.getElementById("insom").style.display="none";
+            document.getElementById("crypto").style.display="none";
+            document.getElementById("machine").style.display="none";
+            document.getElementById("advsearch").style.display="block";
         }
         currentProject = num;
     }

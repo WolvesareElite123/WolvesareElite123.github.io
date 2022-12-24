@@ -33,16 +33,34 @@
 
 <!--Navbar-->
 <nav class="custNavBar1 navFixTop">
+    <!--
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+        </ul>
+    </div>
+    -->
+
+
     <div class="custNavBar2">
         <!--<h4>Daniel Wang</h4>-->
-        <h4 class="navBarText2">Daniel Wang</h4></a>
+        <h4 class="navBarText2">Daniel Wang</h4>
     </div>
     <nav class="navbar navbar-expand-lg">
         <a class="nav-link navBarButton ml-3 px-5" href="Qualifications.html"><h5>Qualifications</h5></a>
         <a class="nav-link navBarButton ml-3 px-5" href="Timeline.html"><h5>Timeline</h5></a>
         <a class="nav-link navBarButton ml-auto mr-auto btn disabled" href="#" disabled><h5></h5></a>
         <a class="nav-link navBarButton mr-3 px-5" href="Resume.html"><h5>Resume</h5></a>
-        <a class="nav-link navBarButton mr-3 px-5" href="About.html"><h5>About Me</h5></a>
+        <div class="dropdwn">
+            <a class="nav-link navBarButton mr-3 px-5 dropdwnbtn" type="button" href="About.html"><h5>About Me</h5></a>
+            <div class="dropdownContent text-center">
+                <a href="Services.html">Services</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="Contact.html">Contact Me!</a>
+            </div>
+        </div>
     </nav>
 </nav>
 
@@ -55,7 +73,7 @@
     <h1 class="text-center">Experience</h1>
     <h4 class="text-center text-muted">Use the filters below to view my experience in the work environment, academia, and more!</h4>
     <h4 class="text-center text-muted"><strong>Note: All information displayed have been thoroughly investigated 
-        for NDA conflicts - some information about the scale of my work may be omitted</strong></h4>
+        for NDA conflicts - some information about the scale or impact of my work may be omitted</strong></h4>
     <br>
     <h3 class="text-center">Displaying:</h3>
     <nav aria-label="Pagination">
@@ -389,6 +407,9 @@
             <li class="page-item" aria-current="page" id="projDisplay6">
                 <a class="page-link" href="#" onclick="projectSwitch(6)">ML</a>
             </li>
+            <li class="page-item" aria-current="page" id="projDisplay7">
+                <a class="page-link" href="#" onclick="projectSwitch(7)">Advanced Search</a>
+            </li>
         </ul>
     </nav>
     <div id="Portfolio" style="display:block">
@@ -482,7 +503,11 @@
                 <p class="p4">The technologies behind this site were entirely self-taught but often took inspiration from courses throughout
                 my years at Texas A&M. Thus, this site was never fully released and has been constantly renovated to incorporate certain
                 programming practices (Such as mitigating SQL Injection, jQuery animations, etc.)</p>
-                <p class="p4">This project has been temporarily placed on 'hold' while development on the portfolio is ongoing.</p>
+                <p class="p4"><b><u>Important Note:</u></b> As of December 2022, this project is undergoing one last refresh - where the previous website will be scrapped
+                and the hosting of the server will be shifted towards a more reliable platform.</p>
+                <p class="p4">As the development of this site began roughly 3 years ago, much of the code is not only outdated but is evidently
+                showing my inexperience from my earlier years as a student. Furthermore, this site used to be hosted on my own, personal desktop
+                which was incredibly unreliable.</p>
             </div>
             <div class="col-sm-1"></div>
         </div>
@@ -782,7 +807,7 @@
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-5">
-                <h2>Machine Learning Project</h2>
+                <h2>Machine Learning Projects</h2>
                 <h4 class="text-muted2">Sole Developer</h4>
                 <h4 class="text-muted2">Independent Project</h4>
             </div>
@@ -800,8 +825,40 @@
                 <h2 class="text-center">About the Project | Motivation</h2>
                 <p class="p4">With a personal interest in Machine Learning, I decided to tackle the project after being exposed to it
                 at an impromptu competition</p>
-                <p class="p4">The algorithm is devoted to predicting whether or not a user will click on an advertisement based on
-                data about their demographics and historical trends</p>
+                <p class="p4">There are a series of various machine learning projects that will be released as a part of this work</p>
+                <p class="p4">Information on each project is briefly listed below:</p>
+                <table class="text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Project</th>
+                            <th scope="col">Short Desc.</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Best Accuracy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Power Tools</th>
+                        <td>With data collected from various retailers through web-scraping, this tool used ML to predict the various components and costs
+                        of a power drill (cost, voltage, chuck size, etc.)</td>
+                        <td>Complete</td>
+                        <td>~94%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Dangerous Sounds</th>
+                        <td>With a dataset of roughly 14 noises, this model was to predict whether a played audio (collected through our laptops microphone)
+                        was classified as a 'dangerous' or 'safe' activity</td>
+                        <td>Complete</td>
+                        <td>~88%</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Advertisements</th>
+                        <td>Given a dataset of demographic information, predict the likelyhood an individual would click an advertisement</td>
+                        <td>Work in Progress</td>
+                        <td>N/A</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="col-sm-1"></div>
         </div>
@@ -821,8 +878,7 @@
             <div class="col-sm-5 padLeft border-left">
                 <h2 class="text-center" id="machineLang">Languages</h2>
                 <ul class="list-group p4 backOp0">
-                    <button id="machineLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training" data-content="content">HTML</button>
-                    <button id="machineLang2" type="button" class="list-group-item btn btn-secondary text-white" 
+                    <button id="machineLang1" type="button" class="list-group-item btn btn-secondary text-white" 
                             data-toggle="popover" title="Training" data-content="content">Python</button>
                 </ul>
                 <h2 class="text-center">Tools and Technologies</h2>
@@ -835,6 +891,68 @@
                             data-content="content">Matplotlib</button>
                     <button id="machineTool3" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
                             data-content="content">Jupiter Notebook</button>
+                    <button id="machineTool4" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Google Colab</button>
+                    <button id="machineTool5" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover" title="Training"
+                            data-content="content">Tensor Flow</button>
+                </ul>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <div id="advsearch" style="display:none">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <h2>Advanced Search</h2>
+                <h4 class="text-muted2">Sole Developer</h4>
+                <h4 class="text-muted2">Independent Project</h4>
+            </div>
+            <div class="col-sm-5">
+                <h3 class="text-right">Current Work</h3>
+                <h3 class="text-muted2 text-right">Google Chrome Extension</h3>
+                <h3 class="text-muted2 text-right">Status: Planning Stage</h3>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h2 class="text-center">About the Project | Motivation</h2>
+                <p class="p4">After finding myself in need of an advanced search feature, I've decided to make it myself</p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 padRight border-right">
+                <h2 class="text-center">Technical Work</h2>
+                <ul class="list-group-flush p4 backOp0">
+                    <li class="list-group-item backOp0">Created and tested various algorithms to attempt predictions</li>
+                    <li class="list-group-item backOp0">Created visualizations of predictions and trends</li>
+                </ul>
+                <br>
+
+            </div>
+
+            <div class="col-sm-5 padLeft border-left">
+                <h2 class="text-center" id="advLang">Languages</h2>
+                <ul class="list-group p4 backOp0">
+                    <button id="advLang1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" 
+                            data-toggle="popover" title="Training" data-content="content">HTML</button>
+                    <button id="advLang2" type="button" class="list-group-item btn btn-secondary text-white"
+                            data-toggle="popover" title="Training" data-content="content">JavaScript</button>
+                    <button id="advLang3" type="button" class="list-group-item btn btn-secondary text-white"
+                            data-toggle="popover" title="Training" data-content="content">CSS</button>
+                </ul>
+                <h2 class="text-center">Tools and Technologies</h2>
+
+                <ul class="list-group p4 backOp0">
+                    <button id="advTool1" onclick="pop(0)" type="button" class="list-group-item btn btn-secondary text-white" data-toggle="popover"
+                            data-popper-placement="right"
+                            title="Training" data-content="content">Google Chrome</button>
                 </ul>
             </div>
             <div class="col-sm-1"></div>

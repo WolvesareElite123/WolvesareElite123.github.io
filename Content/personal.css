@@ -69,3 +69,60 @@
 .padBet{
     margin-bottom: 10%;
 }
+
+.dropdwn{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdwnbtn{
+    color: white;
+    border: none;
+}
+
+.dropdownContent{
+    margin-left: 5%;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    margin-top: -5%;
+    border-color: silver;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+    border-radius: 15px;
+}
+
+.dropdownContent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdwn:hover .dropdownContent{display: block;}
+
+.listGroupHover:hover{
+    background-color: #2C3E50;
+}
+
+.debug{
+    border-color: red !important;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.debug2{
+    border-color: orange !important;
+    border-top: dashed 1px;
+    border-right: dashed 1px;
+    border-left: dashed 1px;
+    border-bottom: dashed 1px;
+}

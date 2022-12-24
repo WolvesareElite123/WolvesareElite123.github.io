@@ -23,10 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FAQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/SpheresRegular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/Resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/Timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiences.html" beforeDir="false" afterPath="$PROJECT_DIR$/Experiences.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/Experiences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qualifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/Qualifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,19 +65,22 @@
         <option value="$PROJECT_DIR$/Test.js" />
         <option value="$PROJECT_DIR$/personalLess.less" />
         <option value="$PROJECT_DIR$/Test.html" />
-        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
-        <option value="$PROJECT_DIR$/Content/personal.css" />
-        <option value="$PROJECT_DIR$/Experiences.js" />
         <option value="$PROJECT_DIR$/Qualifications.css" />
         <option value="$PROJECT_DIR$/Timeline.css" />
-        <option value="$PROJECT_DIR$/Qualifications.html" />
-        <option value="$PROJECT_DIR$/Experiences.html" />
         <option value="$PROJECT_DIR$/Skills.html" />
         <option value="$PROJECT_DIR$/UnderConstruction.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Resume.html" />
-        <option value="$PROJECT_DIR$/About.html" />
         <option value="$PROJECT_DIR$/Timeline.html" />
+        <option value="$PROJECT_DIR$/Qualifications.html" />
+        <option value="$PROJECT_DIR$/Experiences.html" />
+        <option value="$PROJECT_DIR$/Experiences.js" />
+        <option value="$PROJECT_DIR$/About.html" />
+        <option value="$PROJECT_DIR$/Content/personal.css" />
+        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Contact.html" />
+        <option value="$PROJECT_DIR$/FAQ.html" />
+        <option value="$PROJECT_DIR$/Services.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -89,6 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.Skills.html">
@@ -159,7 +171,10 @@
       <workItem from="1663109995125" duration="613000" />
       <workItem from="1663443944116" duration="6102000" />
       <workItem from="1663569109066" duration="12000" />
-      <workItem from="1663739281533" duration="2461000" />
+      <workItem from="1663739281533" duration="2486000" />
+      <workItem from="1664053482161" duration="3162000" />
+      <workItem from="1671771197974" duration="3634000" />
+      <workItem from="1671834960282" duration="6811000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -371,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663451680475</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Minor Updates">
+      <created>1663742340384</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742340384</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +416,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Updated final &quot;Under Construction&quot; page design" />
     <MESSAGE value="Added Dedicated Construction Page" />
     <MESSAGE value="Quick Fixes and Tests" />
     <MESSAGE value="Fixed Redirect + Added Test.html" />
@@ -419,7 +440,8 @@
     <MESSAGE value="Qualifications" />
     <MESSAGE value="Massive Push - All Pages" />
     <MESSAGE value="Bug Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug Fixes" />
+    <MESSAGE value="Minor Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor Updates" />
   </component>
   <component name="WindowStateProjectService">
     <state width="512" height="464" key="DebuggerActiveHint" timestamp="1659304120602">
@@ -498,12 +520,16 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1659308438231" />
-    <state x="2473" y="254" key="Vcs.Push.Dialog.v2" timestamp="1663569110323">
+    <state x="2473" y="254" key="Vcs.Push.Dialog.v2" timestamp="1663742342959">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2473" y="254" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663569110323" />
+    <state x="2473" y="254" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663742342959" />
     <state x="2656" y="341" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1659976397599" />
     <state x="442" y="201" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1661459289781" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1664055934842">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664055934842" />
     <state x="2544" y="225" width="840" height="680" key="search.everywhere.popup" timestamp="1663450546925">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
