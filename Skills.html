@@ -5,7 +5,7 @@
     <title>Skills</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Refresh" content="0; url='UnderConstruction.html'">
+    <!--<meta http-equiv="Refresh" content="0; url='UnderConstruction.html'">-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
@@ -23,6 +23,9 @@
     <link rel="stylesheet/less" type="text/css" href="personalLess.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
     <script src="Scripts/less.min.js.map"></script>
+    
+    <!--Initialize-->
+    <script src="Scripts/skillsInit.js" type="text/javascript"></script>
 
     <style>
         body{
@@ -30,7 +33,7 @@
         }
     </style>
 </head>
-<body class="defaultSetups">
+<body class="defaultSetups" onload="initiate()">
 
     <!--Navbar-->
     <nav class="custNavBar1 navFixTop">
@@ -72,8 +75,12 @@
     <div class="container mt-5">
         <br>
         <h1 class="text-center">Skills</h1>
-        <h4 class="text-center text-muted">Use the filters below to view my skills in the work place and more!</h4>
+        <h4 class="text-center text-muted"><s>Use the filters below to</s> (Filters currently in development) view my skills in the work place and more!</h4>
         <h4 class="text-center text-muted">The list contains trainings accomplished at varying locations as well</h4>
+        <p class="text-center display-6"><u>Please Note:</u> Due to <b><u>all</u></b> languages, tools, and skills having lengthy lists of projects/work experience - the
+        category has been removed from the respective tables and replaced with 'type' for better filtering results. If you would like to see projects that include these
+            skills, please see the <a href="Experiences.html">Experiences tab</a> in the 'Projects' or 'Internships' section</p>
+        <p class="text-center display-6">If one of your desired languages isn't listed there, it is due to my experience coming from school-related projects/assignments</p>
         <br>
         <!--
         <h3 class="text-center">Displaying:</h3>
@@ -103,193 +110,128 @@
     
     <br>
     <br>
-    <h2 class="text-center">Languages</h2>
-    <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-            <table class="table text-white text-center">
-                <thead>
-                <tr>
-                    <th scope="col">Language</th>
-                    <th scope="col">Proficiency</th>
-                    <th scope="col">Years Experience</th>
-                    <th scope="col">Education</th>
-                    <th scope="col">Projects/Work Experience</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">C</th>
-                    <td>5</td>
-                    <td>3</td>
-                    <td>Self-Taught</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">C++</th>
-                    <td>5</td>
-                    <td>4</td>
-                    <td>Texas A&M | Self-Taught</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">C#</th>
-                    <td>5</td>
-                    <td>5</td>
-                    <td>Self-Taught</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">CSS</th>
-                    <td>4</td>
-                    <td>4</td>
-                    <td>Self-Taught</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">Haskell</th>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>Texas A&M</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">HDL</th>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>Texas A&M</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">HTML</th>
-                    <td>5</td>
-                    <td>7</td>
-                    <td>Self-Taught</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">Java</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">JavaScript</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">jQuery</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">LESS</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">Python</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">R</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">Robot Operating System (ROS)</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">SQL Server</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <th scope="row">PostgreSQL</th>
-                    <td>4</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                </tbody>
-            </table>
+    <div class="container-fluid">
+        <h2 class="text-center">Languages</h2>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <table class="table text-white text-center align-middle" id="langTable">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="align-middle">Language</th>
+                        <th scope="col" class="align-middle" style="white-space:nowrap;"><span data-feather="help-circle" type="button" data-toggle="modal" data-target="#profModal"></span>Proficiency</th>
+                        <th scope="col" class="align-middle">Years Experience</th>
+                        <th scope="col" class="align-middle">Education</th>
+                        <th scope="col" class="align-middle">Type</th>
+                    </tr>
+                    </thead>
+                    <tbody id="langTableBody">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
-        <div class="col-sm-2"></div>
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="text-center">Tools</h2>
+                <table class="table text-white text-center" id="toolTable">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="align-middle">Tool</th>
+                        <th scope="col" class="align-middle">Proficiency</th>
+                        <th scope="col" class="align-middle">Years Experience</th>
+                        <th scope="col" class="align-middle">Education</th>
+                        <th scope="col" class="align-middle">Type</th>
+                    </tr>
+                    </thead>
+                    <tbody id="toolTableBody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="text-center">Other Technical Skills/Experiences</h2>
+                <table class="table text-white text-center" id="compTable">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="align-middle">Skill</th>
+                        <th scope="col" class="align-middle" style="white-space:nowrap;"><span data-feather="help-circle" type="button" data-toggle="modal" data-target="#profModal"></span>Proficiency</th>
+                        <th scope="col" class="align-middle">Years Experience</th>
+                        <th scope="col" class="align-middle">Education</th>
+                        <th scope="col" class="align-middle">Type</th>
+                    </tr>
+                    </thead>
+                    <tbody id="compTableBody">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="text-center">Spoken Languages</h2>
+                <table class="table text-white text-center" id="spokenTable">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="align-middle">Language</th>
+                        <th scope="col" class="align-middle">Spoken Proficiency</th>
+                        <th scope="col" class="align-middle">Written Proficiency</th>
+                    </tr>
+                    </thead>
+                    <tbody id="spokenTableBody">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <p class="display-6"><u>Quick Note</u>: all included skills above have been applied
+                    to software development. For example, 'Statistics' as we all know is a math science that is typically done
+                    by hand. In my case, I have taken Statistics courses and applied it to my software projects.</p>
+            </div>
+        </div>
     </div>
 
-    <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-            <h2 class="text-center">Tools</h2>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">Language</th>
-                    <th scope="col">Proficiency</th>
-                    <th scope="col">Years Experience</th>
-                    <th scope="col">Education</th>
-                    <th scope="col">Projects/Work Experience</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">C++</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                </tbody>
-            </table>
+    <!--Proficiency Modal-->
+    <div class="text-black modal fade" id="profModal" tabindex="-1" role="dialog" aria-labelledby="profModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="profModalLabel">Proficiency Score</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="display-6">Each number (1-5) represents my proficiency/confidence in a certain language, tool, or skill.</p>
+                    <br>
+                    <p class="display-6">5 (Expert Proficiency): I am fully confident in taking on any projects with this language right away</p>
+                    <p class="display-6">4</p>
+                    <p class="display-6">3</p>
+                    <p class="display-6">2</p>
+                    <p class="display-6">1 (Basic Proficiency): I am familiar with this but might need a refresher before I start</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-2"></div>
     </div>
-    <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-            <h2 class="text-center">Computer Skills</h2>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">Language</th>
-                    <th scope="col">Proficiency</th>
-                    <th scope="col">Years Experience</th>
-                    <th scope="col">Education</th>
-                    <th scope="col">Projects/Work Experience</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">C++</th>
-                    <td>5</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="col-sm-2"></div>
-    </div>
+    
 </body>
 </html>
 

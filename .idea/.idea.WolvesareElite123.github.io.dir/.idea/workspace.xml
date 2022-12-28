@@ -23,9 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FAQ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/faqInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/skillsInit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/Skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalLess.less" beforeDir="false" afterPath="$PROJECT_DIR$/personalLess.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +55,12 @@
         <option value="$PROJECT_DIR$/FirstConstruction.html" />
         <option value="$PROJECT_DIR$/Scripts/UnderConstruction.html" />
         <option value="$PROJECT_DIR$/Test.js" />
-        <option value="$PROJECT_DIR$/personalLess.less" />
         <option value="$PROJECT_DIR$/Test.html" />
         <option value="$PROJECT_DIR$/Qualifications.css" />
         <option value="$PROJECT_DIR$/Timeline.css" />
         <option value="$PROJECT_DIR$/UnderConstruction.html" />
         <option value="$PROJECT_DIR$/Experiences.js" />
         <option value="$PROJECT_DIR$/Content/personal.css" />
-        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
         <option value="$PROJECT_DIR$/Contact.html" />
         <option value="$PROJECT_DIR$/Services.html" />
         <option value="$PROJECT_DIR$/About.html" />
@@ -69,10 +68,13 @@
         <option value="$PROJECT_DIR$/Resume.html" />
         <option value="$PROJECT_DIR$/Timeline.html" />
         <option value="$PROJECT_DIR$/Experiences.html" />
-        <option value="$PROJECT_DIR$/Skills.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/FAQ.html" />
+        <option value="$PROJECT_DIR$/Content/bootstrap.css" />
         <option value="$PROJECT_DIR$/Scripts/faqInit.js" />
+        <option value="$PROJECT_DIR$/personalLess.less" />
+        <option value="$PROJECT_DIR$/Scripts/skillsInit.js" />
+        <option value="$PROJECT_DIR$/Skills.html" />
       </list>
     </option>
   </component>
@@ -167,7 +169,7 @@
       <workItem from="1664053482161" duration="3162000" />
       <workItem from="1671771197974" duration="3634000" />
       <workItem from="1671834960282" duration="11430000" />
-      <workItem from="1672172493522" duration="3131000" />
+      <workItem from="1672172493522" duration="14134000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -393,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671920884272</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="FAQ">
+      <created>1672175890235</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1672175890235</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +425,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Quick Fixes and Tests" />
     <MESSAGE value="Fixed Redirect + Added Test.html" />
     <MESSAGE value="HTTPS Link Update" />
     <MESSAGE value="Updated construction" />
@@ -441,23 +449,23 @@
     <MESSAGE value="Bug Fixes" />
     <MESSAGE value="Minor Updates" />
     <MESSAGE value="Major Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Major Update" />
+    <MESSAGE value="FAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="FAQ" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2657" y="342" key="Vcs.Push.Dialog.v2" timestamp="1671920891072">
+    <state x="2657" y="342" key="Vcs.Push.Dialog.v2" timestamp="1672175895620">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2473" y="254" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663742342959" />
-    <state x="2657" y="342" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1671920891072" />
+    <state x="2657" y="342" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672175895620" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1664055934842">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664055934842" />
-    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup" timestamp="1672026407648">
+    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup" timestamp="1672188853717">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2544" y="225" width="840" height="680" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663450546925" />
-    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672026407648" />
+    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672188853717" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
