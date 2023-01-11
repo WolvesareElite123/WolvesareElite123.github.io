@@ -1,0 +1,20 @@
+﻿
+
+
+
+    {
+      "RequestID": 123,
+      "TicketInfo": {
+        "TicketID": 1,
+        "RequestType": "A Request"             
+      },
+      "EmployeeInfo": {
+        "Name": "John Smith",
+        "city": "Seattle"
+      }
+    }
+    
+    
+    
+    
+    
