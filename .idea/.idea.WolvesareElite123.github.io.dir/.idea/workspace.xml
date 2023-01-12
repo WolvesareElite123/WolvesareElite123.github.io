@@ -23,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/JSONExample.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSONDeconstructor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/jsondeconstructor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deleteme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/jsondeconstructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/jsondeconstructor.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,6 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JSON File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -47,8 +47,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../TOCGCreations/TOCGCreations/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="183f2b2b-3e18-4fd9-8ce1-c65878063a08" />
+        <option name="url" value="https://github.com/WolvesareElite123/WolvesareElite123.github.io.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,9 +87,6 @@
         <option value="$PROJECT_DIR$/Scripts/skillsInit.js" />
         <option value="$PROJECT_DIR$/Skills.html" />
         <option value="$PROJECT_DIR$/About.html" />
-        <option value="$PROJECT_DIR$/deleteme.json" />
-        <option value="$PROJECT_DIR$/Scripts/jsondeconstructor.js" />
-        <option value="$PROJECT_DIR$/JSONDeconstructor.html" />
       </list>
     </option>
   </component>
@@ -174,8 +181,7 @@
       <workItem from="1664053482161" duration="3162000" />
       <workItem from="1671771197974" duration="3634000" />
       <workItem from="1671834960282" duration="11430000" />
-      <workItem from="1672172493522" duration="16002000" />
-      <workItem from="1672255247176" duration="11585000" />
+      <workItem from="1672172493522" duration="14794000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -415,14 +421,7 @@
       <option name="project" value="LOCAL" />
       <updated>1672199236473</updated>
     </task>
-    <task id="LOCAL-00035" summary="Update About">
-      <created>1672200494478</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1672200494478</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,11 +439,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="HTTPS Link Update" />
     <MESSAGE value="Updated construction" />
     <MESSAGE value="Updated projected completion time" />
     <MESSAGE value="Final Construction Update" />
@@ -469,23 +468,22 @@
     <MESSAGE value="Major Update" />
     <MESSAGE value="FAQ" />
     <MESSAGE value="Skills" />
-    <MESSAGE value="Update About" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update About" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skills" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2657" y="342" key="Vcs.Push.Dialog.v2" timestamp="1672200497337">
+    <state x="2657" y="342" key="Vcs.Push.Dialog.v2" timestamp="1672199246505">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2473" y="254" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1663742342959" />
-    <state x="2657" y="342" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672200497337" />
+    <state x="2657" y="342" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672199246505" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1664055934842">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1664055934842" />
-    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup" timestamp="1672460989979">
+    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup" timestamp="1672188853717">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672460989979" />
+    <state x="2752" y="303" width="1120" height="916" key="search.everywhere.popup/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1672188853717" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -13,9 +13,17 @@ var rightBrace = '}';
 
 function run()
 {
+    resetAll();
     retrieveData();
     cleanData();
     runData();
+}
+
+function resetAll()
+{
+    document.getElementById('out1').value = "";
+    document.getElementById('out2').value = "";
+    $(' #progress').attr('aria-valuenow', 0).css('width', 0+'%');
 }
 
 function retrieveData()
@@ -73,10 +81,22 @@ function runData()
         let char = input.substring(x,x+1);
         if(char === leftBrace) //New Layer
         {
+            if (currentKeyPath.length === 0)
+            {
+                if(lastKey === '') //empty
+                {
+                    continue;
+                }
+            }
+            //window.alert("Push1: " + lastKey);
             currentKeyPath.push(lastKey);
             let currentValue = document.getElementById('out1').value;
             document.getElementById('out1').value = currentValue + "\r\n";
             count++;
+            // if(currentKeyPath.length>1)
+            // {
+            //     count++;
+            // }
             continue;
         }
         else if(char === rightBrace) //End Layer
@@ -93,9 +113,37 @@ function runData()
             let keyStr = char;
             let valStr = '';
             let loc = x+1;
+            isKey = true;
             while(char!==sep && char!==rightBrace)
             {
                 char = input.substring(loc, loc+1);
+                
+                //New Layer
+                if(char === leftBrace)
+                {
+                    /*
+                    if(keyStr.length===0)
+                    {
+                        runFailed("runData>DetecText", "FAILED TO RECOGNIZE KEY")
+                    }
+                    window.alert("Push2: " + keyStr);
+                    currentKeyPath.push(keyStr);
+                    let currentValue = document.getElementById('out1').value;
+                    document.getElementById('out1').value = currentValue + "\r\n";
+                    count++;
+                    x++;
+                    */
+                    break;
+                }
+
+                //Value Found
+                if(char===keysep)
+                {
+                    isKey=false;
+                    loc++;
+                    continue;
+                }
+                
                 if(isKey)
                 {
                     keyStr += char;
@@ -113,7 +161,7 @@ function runData()
             {
                 htmlString+=">" + "    ";
             }
-            htmlString += ">" + keyStr + " : " + valStr + "\r\n";
+            htmlString += ">  " + keyStr + " : " + valStr + "\r\n";
             //$('#out1').append(htmlString);
             let currentValue = document.getElementById('out1').value;
             document.getElementById('out1').value = currentValue + htmlString;
@@ -148,10 +196,10 @@ function runData()
                 {
                     htmlString+= "[" + currentKeyPath[y] + "]" + " > ";
                 }
-                htmlString += currentKeyPath[currentKeyPath.length-1];
+                htmlString += targetList[targetList.indexOf(lastKey)]; //currentKeyPath[currentKeyPath.length-1];
                 //$('#out1').append(htmlString);
                 let currentValue = document.getElementById('out2').value;
-                document.getElementById('out2').value = currentValue + htmlString;
+                document.getElementById('out2').value = currentValue + htmlString + ".\r\n";
                 
                 
                 /*
