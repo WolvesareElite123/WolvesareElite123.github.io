@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AccessDenied.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WolvesareElite123.github.io.dir/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4c25d48b-6d39-4808-8a82-0bed5068f195" name="Default Changelist" comment="Site Shut Down">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +189,7 @@
       <workItem from="1671834960282" duration="11430000" />
       <workItem from="1672172493522" duration="14794000" />
       <workItem from="1673636122198" duration="1208000" />
-      <workItem from="1707509741694" duration="305000" />
+      <workItem from="1707509741694" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="index.html">
       <created>1643085751876</created>
@@ -438,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1673483093882</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Site Shut Down">
+      <option name="closed" value="true" />
+      <created>1707510342918</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707510342918</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +467,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Updated construction" />
     <MESSAGE value="Updated projected completion time" />
     <MESSAGE value="Final Construction Update" />
     <MESSAGE value="Left/Right Prototype Upload" />
@@ -486,7 +491,8 @@
     <MESSAGE value="FAQ" />
     <MESSAGE value="Skills" />
     <MESSAGE value="Version 1 JSONDeconstructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1 JSONDeconstructor" />
+    <MESSAGE value="Site Shut Down" />
+    <option name="LAST_COMMIT_MESSAGE" value="Site Shut Down" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
